@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "7ac5a622d53f9288",
+    "type": "split",
+    "children": [
+      {
+        "id": "d99f8d243a471e75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "694b389b4f3a4473",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b5074094b4032d40",
+    "type": "split",
+    "children": [
+      {
+        "id": "47de45b4c7e78ac0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "682a37423256a8fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c57099a7514805eb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fcd6c9ac41cad5e5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "a0e77eb9b773ebc5",
+    "type": "split",
+    "children": [
+      {
+        "id": "1978cd69d83d7507",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92f9f5d2b592994c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Security Governance/PDF/Lecture 1-2.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Lecture 1-2"
+            }
+          },
+          {
+            "id": "3c9cd2b043902157",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Security Governance/PDF/Lecture 1-2.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Lecture 1-2"
+            }
+          },
+          {
+            "id": "857506436ae62cfa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "60065c3166b3d4bf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Security Governance/PDF/Lecture 1-2.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Lecture 1-2"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "quiz-generator:Open generator": false
+    }
+  },
+  "active": "682a37423256a8fc",
+  "lastOpenFiles": [
+    "Malware Analysis/PDF Theory/2 Killchain.pdf",
+    "Malware Analysis/2 Killchain.md",
+    "Security Governance/Lecture 1-2.md",
+    "Malware Analysis/PDF Practice/MAIF+MA-2025-02-Assembly.pdf",
+    "Malware Analysis/PDF Theory/1 Introduction.pdf",
+    "Malware Analysis/PDF Practice",
+    "Security Governance/PDF/Lecture 1-2.pdf",
+    "Security Governance/Images/ISG6.png",
+    "Security Governance/Images/ISG7.png",
+    "Security Governance/Images/ISG21.png",
+    "Security Governance/Images/ISG20.png",
+    "Security Governance/Images/ISG19.png",
+    "Security Governance/Images/ISG18.png",
+    "Security Governance/Images/ISG17.png",
+    "Security Governance/Images/ISG16.png",
+    "Security Governance/Images/ISG15.png",
+    "Security Governance/Images/ISG14.png",
+    "Mobile Application and Cloud Computing",
+    "Malware Analysis/1 Introduction.md",
+    "Malware Analysis/PDF Theory",
+    "Malware Analysis/Images",
+    "Security Governance/Images",
+    "Security Governance/PDF"
+  ]
+}
