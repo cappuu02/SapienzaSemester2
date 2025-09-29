@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d99f8d243a471e75",
+        "id": "add30a6fa6801b05",
         "type": "tabs",
         "children": [
           {
-            "id": "694b389b4f3a4473",
+            "id": "1bb49c8d1ca27f51",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -168,28 +168,30 @@
   },
   "active": "682a37423256a8fc",
   "lastOpenFiles": [
-    "Malware Analysis/PDF Theory/2 Killchain.pdf",
+    "Malware Analysis/3 Practical Lecture (the first).md",
+    "Malware Analysis/Images/MW13.png",
+    "Malware Analysis/Images/MW11.png",
+    "Malware Analysis/Images/MW10.png",
+    "Malware Analysis/Images/MW8.png",
+    "Malware Analysis/Images/MW7.png",
+    "Malware Analysis/Images/MW6.png",
+    "Malware Analysis/Images/MW5.png",
+    "Malware Analysis/Images/MW4.png",
+    "Risk Managamenet",
+    "Malware Analysis/PDF Practice/MAIF+MA-2025-02-Assembly.pdf",
+    "Malware Analysis/Images/MW12.png",
+    "Malware Analysis/Untitled",
+    "Malware Analysis/Images/MW9.png",
+    "Mobile Application and Cloud Computing/1 Introduction.md",
+    "Malware Analysis/1 Introduction.md",
     "Malware Analysis/2 Killchain.md",
     "Security Governance/Lecture 1-2.md",
-    "Malware Analysis/PDF Practice/MAIF+MA-2025-02-Assembly.pdf",
+    "Mobile Application and Cloud Computing/PDF/01_introduction.pdf",
+    "Mobile Application and Cloud Computing/Images",
+    "Mobile Application and Cloud Computing/PDF",
+    "Malware Analysis/PDF Theory/2 Killchain.pdf",
     "Malware Analysis/PDF Theory/1 Introduction.pdf",
     "Malware Analysis/PDF Practice",
-    "Security Governance/PDF/Lecture 1-2.pdf",
-    "Security Governance/Images/ISG6.png",
-    "Security Governance/Images/ISG7.png",
-    "Security Governance/Images/ISG21.png",
-    "Security Governance/Images/ISG20.png",
-    "Security Governance/Images/ISG19.png",
-    "Security Governance/Images/ISG18.png",
-    "Security Governance/Images/ISG17.png",
-    "Security Governance/Images/ISG16.png",
-    "Security Governance/Images/ISG15.png",
-    "Security Governance/Images/ISG14.png",
-    "Mobile Application and Cloud Computing",
-    "Malware Analysis/1 Introduction.md",
-    "Malware Analysis/PDF Theory",
-    "Malware Analysis/Images",
-    "Security Governance/Images",
-    "Security Governance/PDF"
+    "Security Governance/PDF/Lecture 1-2.pdf"
   ]
 }
