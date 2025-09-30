@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b81e263c37992990",
+        "id": "59e0dea85a0e9066",
         "type": "tabs",
         "children": [
           {
-            "id": "152e2b4d59c332ca",
+            "id": "4c2266ac4cc320ad",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,35 +180,36 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "152e2b4d59c332ca",
+  "active": "682a37423256a8fc",
   "lastOpenFiles": [
+    "Malware Analysis/PDF Theory/3 MAIF+SES.pdf",
+    "Malware Analysis/4 MAIF+SES.md",
+    "Malware Analysis/3 Practical Lecture (the first).md",
+    "Malware Analysis/Images/MW14.png",
+    "Malware Analysis/Images/MW28.png",
+    "Malware Analysis/Images/MW27.png",
+    "Malware Analysis/Images/MW26.png",
+    "Malware Analysis/Images/MW25.png",
+    "Malware Analysis/Images/MW24.png",
+    "Malware Analysis/Images/MW23.png",
+    "Malware Analysis/Images/MW22.png",
+    "Malware Analysis/Images/MW21.png",
+    "Malware Analysis/Images/MW20.png",
     "Security Governance/3) Cybersecurity frameworks and best practices.md",
     "Security Governance/1-2) Lecture.md",
     "Security Governance/PDF/SG-Lecture 4-2025-2026.pdf",
-    "Security Governance/Images/ISG 22.png",
-    "Security Governance/Images/ISG43.png",
-    "Security Governance/Images/ISG42.png",
-    "Security Governance/Images/ISG41.png",
-    "Security Governance/Images/ISG40.png",
-    "Security Governance/Images/ISG39.png",
-    "Security Governance/Images/ISG38.png",
-    "Security Governance/Images/ISG37.png",
-    "Security Governance/Images/ISG36.png",
-    "Security Governance/Images/ISG35.png",
     "Security Governance/PDF/Lecture 1-2.pdf",
     "Mobile Application and Cloud Computing/2 Patterns.md",
     "Mobile Application and Cloud Computing/PDF/02_patterns.pdf",
     "M13.md",
     "Untitled.base",
     "Mobile Application and Cloud Computing/1 Introduction.md",
-    "Malware Analysis/3 Practical Lecture (the first).md",
-    "Risk Managamenet",
+    "Risk Management",
     "Malware Analysis/PDF Practice/MAIF+MA-2025-02-Assembly.pdf",
     "Malware Analysis/Untitled",
     "Malware Analysis/1 Introduction.md",
     "Malware Analysis/2 Killchain.md",
     "Mobile Application and Cloud Computing/PDF/01_introduction.pdf",
-    "Mobile Application and Cloud Computing/Images",
-    "Mobile Application and Cloud Computing/PDF"
+    "Mobile Application and Cloud Computing/Images"
   ]
 }
