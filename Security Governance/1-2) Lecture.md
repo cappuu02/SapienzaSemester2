@@ -346,21 +346,21 @@ In many companies the reality is much better. (re-use as much as possible to pre
 
 The actual situation must be compared with the steps provided in the methodology, and must be synchronized and integrated where possible.
 
-# Methodology Flow
+## Methodology Flow
 ![[ISG20.png]]
 
-## Step 1
+### Step 1
 **Get the Board’s buy-in about IT Risk Management and Information Protection**
 
 - This is a very important staring point and without it, the project will surely have problems in progressing properly 
 - Initially it may not be possible to get a “clean” Board Directive but that is not essential 
 - As long as there is a commitment from the Board to support the project, that is enough to start 
 - The formal Board Directive can come later – but be sure to get it!
-## Step 2
+### Step 2
 **Select some guiding Best Practices**
 - It is fundamental to choose some existing international Best Practice to use as a foundation for the project, and to provide motivation and direction 
 - Many Best Practice exists and the essential aspect is to have one 
-## Step 3
+### Step 3
 **Perform a basic Risk Analysis and determine all controls needed**
 
 - It is important to perform some type of Risk Analysis 
@@ -369,14 +369,14 @@ The actual situation must be compared with the steps provided in the methodology
 - Board members, line management, users, system owners etc. 
 - Ensure that the relevant controls are installed and operational 
 
-## Step 4
+### Step 4
 **Create a Corporate Information Security Policy (CISP) and get it signed by the Chairman/CEO**
 
 - A CISP must be drafted, be circulated amongst the stakeholders and then submitted to top management. 
 - Recall: It is essential to have a more formal Board Directive on Information Security in order to write down a consistent CISP 
 - The Draft CISP must now be signed and made official company policy 
 - This is the basis and motivation for all future steps 
-## Step 5
+### Step 5
 **Create the rest of the Information Security Policy Architecture (ISPA)**
 
 - Documents composing the ISPA must be defined 
@@ -384,13 +384,13 @@ The actual situation must be compared with the steps provided in the methodology
 	- the risk analysis conducted in Step 3 
 	- The CISP produced in Step 4 
 - ISPA documents can be defined by following the guidelines discussed in the previous lectures
-## Step 6
+### Step 6
 **Create the organizational structure for ISG**
 
 - Specific attention must be given to the Operational Management and Compliance Management sides 
 - This step is closely related to Step 7 and this is why it is preferable to do them in parallel 
 
-## Step 7
+### Step 7
 **Create an initial set of Compliance/Control measures and start using these measures to create reports on all three management levels**
 
 - In this step, it is important to get buy-in from the company’s Internal and External IT Auditor departments as well as the Legal department 
@@ -398,18 +398,18 @@ The actual situation must be compared with the steps provided in the methodology
 - Recall: creating such measures is not straightforward, and the effectiveness and value of such measures will have to be refined over time 
 - It is, however, important to start off with an initial set of measures which will form the basis of the ‘Control’ part of the model 
 
-## Step 8
+### Step 8
 **Create an Awareness Programme including aspects like information security job responsibilities**
 
 - This step is core to the success of the whole effort and must be performed on a continuous basis 
 - All the documents in the ISPA should form part of the Awareness Programme 
 
-## Step 9
+### Step 9
 **Get the cycle going – kick start the process**
 
 - At this point, the whole programme must be initiated 
 - If one already exists, the revised one must be integrated with the existing one to get the new one operational. 
-## Step 10
+### Step 10
 **Redo the Risk Analysis from time to time to identify the possible changes in risks and controls**
 
 Risks are dynamic 
@@ -419,12 +419,12 @@ Risks are dynamic
 
 It is, therefore, important to redo any Risk Analysis from time to time to ensure that the risk situation is up to date and that relevant controls are installed and operational.
 
-## Step 11
+### Step 11
 **Keep the ISPA up to date and in line with newly identified risks**
 
 Ensure that all changed risks are reflected in the ISPA by changing the content of the ISPA and Compliance Clauses, if necessary. 
 
-## Step 12
+### Step 12
 **Refine and expand the Compliance Control measures to cater for newly identified risks, enforce compliance and keep reporting to top management**
 
 Recall: The choice and creation of Compliance Clauses and Compliance Monitoring measures are not easy, and remain a challenging process 
@@ -432,9 +432,7 @@ Recall: The choice and creation of Compliance Clauses and Compliance Monitoring 
 The process never stops 
 - experience is continuously gathered 
 - It can be used to refine measures and create new ones. 
-
-
-## Step 13
+### Step 13
 Continue to make all users more Information Security Aware
 
 This process can never stop and must be enforced on a continuous basis.
