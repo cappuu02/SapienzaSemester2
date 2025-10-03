@@ -4,45 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "955b11d216a2750d",
+        "id": "d748c562160e3373",
         "type": "tabs",
-        "dimension": 47.4824355971897,
         "children": [
           {
-            "id": "2ffe94bb1306b3e3",
+            "id": "c0f633e5db342015",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mobile Application and Cloud Computing/3 Cloud.md",
+                "file": "Malware Analysis/Practical Lecture (the first).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "3 Cloud"
-            }
-          }
-        ]
-      },
-      {
-        "id": "84c196563e108094",
-        "type": "tabs",
-        "dimension": 52.5175644028103,
-        "children": [
-          {
-            "id": "58312861cd75bbb8",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Mobile Application and Cloud Computing/PDF/03_cloud.pdf"
-              },
-              "pinned": true,
-              "icon": "lucide-file-text",
-              "title": "03_cloud"
+              "title": "Practical Lecture (the first)"
             }
           }
         ]
@@ -116,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "a0e77eb9b773ebc5",
@@ -209,23 +186,22 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "2ffe94bb1306b3e3",
+  "active": "c0f633e5db342015",
   "lastOpenFiles": [
-    "Pasted image 20251003134737.png",
-    "Mobile Application and Cloud Computing/PDF/03_cloud.pdf",
-    "Mobile Application and Cloud Computing/3 Cloud.md",
-    "Pasted image 20251003134556.png",
-    "Pasted image 20251003134514.png",
-    "Pasted image 20251003134501.png",
-    "Pasted image 20251003134409.png",
-    "Pasted image 20251003134342.png",
-    "Pasted image 20251003134247.png",
-    "Pasted image 20251003134210.png",
-    "Pasted image 20251003133930.png",
-    "Pasted image 20251003133859.png",
-    "Pasted image 20251003133834.png",
-    "Malware Analysis/4 MAIF+SES.md",
+    "Malware Analysis/Images/MW38.png",
+    "Malware Analysis/Images/MW40.png",
     "Malware Analysis/Practical Lecture (the first).md",
+    "Malware Analysis/Images/MW39.png",
+    "Malware Analysis/4 MAIF+SES.md",
+    "Mobile Application and Cloud Computing/3 Cloud.md",
+    "Mobile Application and Cloud Computing/Images/M31.png",
+    "Mobile Application and Cloud Computing/Images/M32.png",
+    "Mobile Application and Cloud Computing/PDF/03_cloud.pdf",
+    "Mobile Application and Cloud Computing/Images/M53.png",
+    "Mobile Application and Cloud Computing/Images/M52.png",
+    "Mobile Application and Cloud Computing/Images/M51.png",
+    "Mobile Application and Cloud Computing/Images/M50.png",
+    "Mobile Application and Cloud Computing/Images/M49.png",
     "MW36.md",
     "Malware Analysis/PDF Practice/MAIF+MA-2025-02-Assembly.pdf",
     "Malware Analysis/2 Killchain.md",

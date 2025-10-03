@@ -8,7 +8,7 @@ In simple terms, cloud computing refers to the shift of computing from a single 
 ```
 
 # NIST Definition of cloud computing
-![[Pasted image 20251003123613.png]]
+![[M31.png]]
 
 # Deployment Models
 
@@ -38,17 +38,17 @@ The layered scheme represents the different components of an information system 
 - PaaS offers a way to develop sw without warrying about any management issue (os updates, patching, )...
 - SaaS is a full sw that the providers runs for the user
 
-![[Pasted image 20251003124107.png]]
+![[M32.png]]
 # THE INITIAL COMPUTING SERVICE FROM AWS
 Cloud computing age started in 2006 with Amazon Web Services (AWS)’s Elastic Cloud Computing (EC2) and Simple Storage Systems (S3), plus a Simple Queue Service (SQS)
 - `EC2` service allows to use provision size variable VMs
 - `S3` is an object storage service (data are stored as objects into beckets), e.g. images, or web site Ensure scalability, data availability, security
 - `SQS`, messaging system used to connect other components
 
-![[Pasted image 20251003124206.png]]
+![[M33.png]]
 
 # SERVICE FEATURES
-![[Pasted image 20251003124226.png]]
+![[M34.png]]
 
 ## On-Demand Self-Service
 The on-demand service feature refers to the ability to consume the computing facility as much as needed at any moment, i.e., through a user-friendly UI or programmatically, e.g. python script, or Infrastructure as Code (IaC) .
@@ -59,12 +59,12 @@ The requested cloud services is provisioned in a short period of time and withou
 title: Example from AWS
 1. Sign in to the management console (aws) 
 2. Open EC2 console choosing EC2 under compute 
-   ![[Pasted image 20251003132755.png]]
+   ![[M35.png]]
 3. Select a AWS Region
-   ![[Pasted image 20251003132819.png]]
+   ![[M36.png]]
 4. Lunch the instance 
    
-![[Pasted image 20251003132853.png]]
+![[M37.png]]
 
 - Among other aspects, in the advanced setting is it possible to specify the Tenancy option. 
 - ==Shared tenant==: default, means that the VM shares the same HW with other tenants from which it is isolated 
@@ -92,7 +92,7 @@ A common example is web-server multi-tenancy, where a single server hosts multip
 
 ```
 
-![[Pasted image 20251003133252.png]]
+![[M38.png]]
 
 ## Measured Service
 - **Service Level Agreement (SLA)**: Formal agreement (contract) between a provider and a consumer of a service, defining  
@@ -110,24 +110,24 @@ Example of SLA is a fixed threshold on a single SLI,
 ## Rapid Elasticity
 Elasticity is the degree to which a system can adapt to workload changes by provisioning and de-provisioning resources in an autonomic manner, such that at each point in time the available resources match the current demand as closely as possible
 
-![[Pasted image 20251003133528.png]]
+![[M39.png]]
 
 ### Type of Workloads
 The demand of service can change in different ways.
-![[Pasted image 20251003133627.png]]
-![[Pasted image 20251003133656.png]]
+![[M40.png]]
+![[M41.png]]
 
 ### Type of Workloads: Constant
-![[Pasted image 20251003133815.png]]
+![[M42.png]]
 
 ### Type of Workloads: Periodic
-![[Pasted image 20251003133834.png]]
+![[M43.png]]
 
 ### Type of Workloads: Unpredictable
-![[Pasted image 20251003133859.png]]
+![[M44.png]]
 
 ###  Type of Workloads: Changing
-![[Pasted image 20251003133930.png]]
+![[M45.png]]
 
 ### ELASTICITY AND AUTO-SCALING
 
@@ -139,34 +139,34 @@ Allocate the minimum number of instances that meet the required SLA (this is cal
 
 But how?  Unless the traffic is regular (e.g. periodic), the main strategy is to forecast the demand of resources. Then, scaling can be done manually (not practical) or automatically. Automatic scaling aka auto-scaling can be seen as a feature of self-adaptive software systems.
 
-![[Pasted image 20251003134210.png]]
+![[M46.png]]
 
 ```ad-example
 title: Example Scaling in AWS
-![[Pasted image 20251003134247.png]]
+![[M47.png]]
 
 ```
 
 #### AUTOSCALING (OVER-PROVISIONING)
 Although auto-scalers are indispensable parts of modern cloud deployments and determine the service quality and cost of a cloud application in dynamic workloads, effective tuning is not trivial.  The following plots report an experiment of an auto-scaler taking 30 s to scale and a new instance is lunched if the CPU load is higher than 80%, and removed if less than 25%. This result in over-provisioning because when the traffic is low again the number of replicas remains high to 5. The auto-scaler takes a new decision before the effect of the previous decision is visible (see * for details).
 
-![[Pasted image 20251003134342.png]]
+![[M48.png]]
 #### AUTOSCALING (UNDER-PROVISIONING)
 In this case the load decreases linearly, the auto-scaler initially removes too many replicas (the deploy time is 60 s) and then it adds replicas again.
 
-![[Pasted image 20251003134409.png]]
+![[M49.png]]
 
 #### AUTO-SCALING CHALLENGES
 - Scaling a stateful service is even more challenging. 
 - In recent years, ML based auto-scaler is becoming studied 
 - Reinforcement Learning seeks to identify the optimal scaling policy, e.g. it modifies the thresholds 
 
-![[Pasted image 20251003134501.png]]
-![[Pasted image 20251003134514.png]]
+![[M50.png]]
+![[M51.png]]
 
 ```ad-example
 title: Another example in AWS
-![[Pasted image 20251003134556.png]]
+![[M52.png]]
 
 ```
 
@@ -188,4 +188,4 @@ title: Another example in AWS
 Cloud resources accessed over Internet using standard access mechanisms that provide platform- independent access, e.g. published service interface/APIc.
 
 ## Main Cloud Providers
-![[Pasted image 20251003134737.png]]
+![[M53.png]]
