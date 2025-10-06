@@ -4,23 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d748c562160e3373",
+        "id": "077bca84f23f034b",
         "type": "tabs",
         "children": [
           {
-            "id": "c0f633e5db342015",
+            "id": "3721bf55bcded971",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Malware Analysis/Practical Lecture (the first).md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Practical Lecture (the first)"
+              "title": "New tab"
             }
           }
         ]
@@ -186,35 +180,36 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "c0f633e5db342015",
+  "active": "682a37423256a8fc",
   "lastOpenFiles": [
-    "Malware Analysis/Images/MW38.png",
-    "Malware Analysis/Images/MW40.png",
-    "Malware Analysis/Practical Lecture (the first).md",
-    "Malware Analysis/Images/MW39.png",
-    "Malware Analysis/4 MAIF+SES.md",
-    "Mobile Application and Cloud Computing/3 Cloud.md",
-    "Mobile Application and Cloud Computing/Images/M31.png",
-    "Mobile Application and Cloud Computing/Images/M32.png",
-    "Mobile Application and Cloud Computing/PDF/03_cloud.pdf",
-    "Mobile Application and Cloud Computing/Images/M53.png",
-    "Mobile Application and Cloud Computing/Images/M52.png",
-    "Mobile Application and Cloud Computing/Images/M51.png",
-    "Mobile Application and Cloud Computing/Images/M50.png",
-    "Mobile Application and Cloud Computing/Images/M49.png",
-    "MW36.md",
+    "Mobile Application and Cloud Computing/PDF/04_cloud.pdf",
     "Malware Analysis/PDF Practice/MAIF+MA-2025-02-Assembly.pdf",
+    "Mobile Application and Cloud Computing/3-4 Cloud.md",
+    "Mobile Application and Cloud Computing/1 Introduction.md",
+    "Mobile Application and Cloud Computing/2 Patterns.md",
+    "Mobile Application and Cloud Computing/Images/M56.png",
+    "Mobile Application and Cloud Computing/Images/M55.png",
+    "Mobile Application and Cloud Computing/Images/M54.png",
+    "Mobile Application and Cloud Computing/Images/M69.png",
+    "Mobile Application and Cloud Computing/Images/M68.png",
+    "Mobile Application and Cloud Computing/Images/M67.png",
+    "Mobile Application and Cloud Computing/Images/M66.png",
+    "Mobile Application and Cloud Computing/Images/M65.png",
+    "Mobile Application and Cloud Computing/Images/M64.png",
+    "Mobile Application and Cloud Computing/Images/M63.png",
+    "Malware Analysis/Practical Lecture (the first).md",
+    "Security Governance/3) Cybersecurity frameworks and best practices.md",
+    "Malware Analysis/4 MAIF+SES.md",
+    "Mobile Application and Cloud Computing/PDF/03_cloud.pdf",
+    "MW36.md",
     "Malware Analysis/2 Killchain.md",
     "Security Governance/PDF/Lecture 1-2.pdf",
     "Security Governance/1-2) Lecture.md",
-    "Security Governance/3) Cybersecurity frameworks and best practices.md",
     "Malware Analysis/PDF Theory/3 MAIF+SES.pdf",
     "Security Governance/PDF/SG-Lecture 4-2025-2026.pdf",
-    "Mobile Application and Cloud Computing/2 Patterns.md",
     "Mobile Application and Cloud Computing/PDF/02_patterns.pdf",
     "M13.md",
     "Untitled.base",
-    "Mobile Application and Cloud Computing/1 Introduction.md",
     "Risk Management",
     "Malware Analysis/Untitled",
     "Malware Analysis/1 Introduction.md",
