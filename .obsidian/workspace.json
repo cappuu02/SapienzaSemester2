@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9f9f6711614f0c13",
+        "id": "b0248ffb4374a4cc",
         "type": "tabs",
         "children": [
           {
-            "id": "06b3ce176bb73a67",
+            "id": "79583b3131f5900c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Malware Analysis/5 Basic Dynamic Analysis.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "5 Basic Dynamic Analysis"
             }
           }
         ]
@@ -180,39 +184,41 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "06b3ce176bb73a67",
+  "active": "79583b3131f5900c",
   "lastOpenFiles": [
+    "Malware Analysis/Images/MW41.png",
+    "Malware Analysis/Images/MW62.png",
+    "Malware Analysis/Images/MW61.png",
+    "Malware Analysis/Images/MW60.png",
+    "Malware Analysis/Images/MW59.png",
+    "Malware Analysis/Images/MW58.png",
+    "Malware Analysis/Images/MW57.png",
+    "Malware Analysis/Images/MW56.png",
+    "Malware Analysis/Images/MW55.png",
+    "Malware Analysis/Images/MW54.png",
+    "Malware Analysis/Images/MW53.png",
+    "Malware Analysis/5 Basic Dynamic Analysis.md",
+    "Malware Analysis/4 MAIF+SES.md",
+    "Malware Analysis/2 Killchain.md",
+    "Malware Analysis/1 Introduction.md",
+    "Malware Analysis/Practical Lecture (the first).md",
     "Security Governance/5) INTRODUCTION TO RISK MANAGEMENT.md",
-    "Security Governance/Images/ISG45.png",
     "Security Governance/PDF/SG-Lecture 5-2025-2026.pdf",
     "Security Governance/1-2) Lecture.md",
     "Security Governance/3) Cybersecurity frameworks and best practices.md",
-    "Security Governance/Images/ISG56.png",
-    "Security Governance/Images/ISG48.png",
-    "Security Governance/Images/ISG47.png",
-    "Security Governance/Images/ISG46.png",
-    "Security Governance/Images/ISG55.png",
-    "Security Governance/Images/ISG54.png",
-    "Security Governance/Images/ISG53.png",
-    "Security Governance/Images/ISG52.png",
-    "Security Governance/Images/ISG51.png",
     "Mobile Application and Cloud Computing/PDF/04_cloud.pdf",
     "Malware Analysis/PDF Practice/MAIF+MA-2025-02-Assembly.pdf",
     "Mobile Application and Cloud Computing/3-4 Cloud.md",
     "Mobile Application and Cloud Computing/1 Introduction.md",
     "Mobile Application and Cloud Computing/2 Patterns.md",
-    "Malware Analysis/Practical Lecture (the first).md",
-    "Malware Analysis/4 MAIF+SES.md",
     "Mobile Application and Cloud Computing/PDF/03_cloud.pdf",
     "MW36.md",
-    "Malware Analysis/2 Killchain.md",
     "Security Governance/PDF/Lecture 1-2.pdf",
     "Malware Analysis/PDF Theory/3 MAIF+SES.pdf",
     "Security Governance/PDF/SG-Lecture 4-2025-2026.pdf",
     "Mobile Application and Cloud Computing/PDF/02_patterns.pdf",
     "M13.md",
     "Untitled.base",
-    "Risk Management",
-    "Malware Analysis/1 Introduction.md"
+    "Risk Management"
   ]
 }
