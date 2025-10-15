@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5c0cb3f423e30022",
+        "id": "282f0f8b2f3eb19e",
         "type": "tabs",
         "children": [
           {
-            "id": "0827b3d2df9ea5fc",
+            "id": "e7ea8d6684e7c114",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "Malware Analysis/Images/MW112.png"
+                "file": "Malware Analysis/Images/MW117.png"
               },
               "icon": "lucide-image",
-              "title": "MW112"
+              "title": "MW117"
             }
           }
         ]
@@ -184,26 +184,26 @@
   },
   "active": "682a37423256a8fc",
   "lastOpenFiles": [
+    "Malware Analysis/7) Advanced Static Analysis.md",
     "Malware Analysis/Practical Lecture (1-2-3).md",
-    "Malware Analysis/Images/MW113.png",
+    "Malware Analysis/Images/MW117.png",
+    "Malware Analysis/Images/MW116.png",
+    "Pasted image 20251015150955.png",
+    "Malware Analysis/Images/MW115.png",
+    "Malware Analysis/Images/MW114.png",
+    "Malware Analysis/PDF Theory/MAIF+MA-2025-05-Advanced_static_analysis.pdf",
+    "Malware Analysis/6) MAIF - Models for threat intelligence.md",
+    "Malware Analysis/PDF Theory/MAIF-2024-02-models_for_threat_intelligence.pdf",
+    "Malware Analysis/PDF Theory/MAIF+MA-2025-04-Basic_dynamic_analysis-1.pdf",
+    "Malware Analysis/5) MAIF+MA Basic Dynamic Analysis.md",
     "Malware Analysis/Images/MW112.png",
+    "Malware Analysis/Images/MW113.png",
     "Malware Analysis/Lab 3 Malware Analysis.md",
     "Malware Analysis/Images/MW111.png",
     "Malware Analysis/Images/MW92.png",
-    "Malware Analysis/7) Advanced Static Analysis.md",
-    "Malware Analysis/PDF Theory/MAIF-2024-02-models_for_threat_intelligence.pdf",
     "Malware Analysis/4) MAIF+SES Basic static analysis.md",
-    "Malware Analysis/5) MAIF+MA Basic Dynamic Analysis.md",
-    "Malware Analysis/6) MAIF - Models for threat intelligence.md",
-    "Malware Analysis/PDF Theory/MAIF+MA-2025-04-Basic_dynamic_analysis-1.pdf",
-    "Malware Analysis/PDF Theory/MAIF+MA-2025-05-Advanced_static_analysis.pdf",
     "Malware Analysis/PDF Theory/3 MAIF+SES.pdf",
     "Malware Analysis/Images/MW110.png",
-    "Malware Analysis/Images/MW109.png",
-    "Malware Analysis/Images/MW108.png",
-    "Malware Analysis/Images/MW107.png",
-    "Malware Analysis/Images/MW106.png",
-    "Malware Analysis/Images/MW105.png",
     "Malware Analysis/2) MAIF Killchain.md",
     "Malware Analysis/1) MAIF+MA Introduction.md",
     "Mobile Application and Cloud Computing/5) Meeting Docker.md",
