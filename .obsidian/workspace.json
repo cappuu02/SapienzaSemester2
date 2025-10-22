@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e0287f718e0516fb",
+        "id": "0ac33964db4743d9",
         "type": "tabs",
         "children": [
           {
-            "id": "64abe3ef67d43fb4",
+            "id": "5050cd123c96ada7",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Security Governance/PDF/SG-Lecture-auditing25-26.pdf"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "pinned": true,
-              "icon": "lucide-file-text",
-              "title": "SG-Lecture-auditing25-26"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -184,9 +184,12 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "682a37423256a8fc",
+  "active": "5050cd123c96ada7",
   "lastOpenFiles": [
+    "Security Governance/Dispensa Prof.pdf",
     "Security Governance/7) Audit and IT audits.md",
+    "Bakup.md",
+    "README.md",
     "Security Governance/PDF/SG-Lecture-auditing25-26.pdf",
     "Security Governance/Images/ISG71.png",
     "Security Governance/Images/ISG70.png",
@@ -215,7 +218,6 @@
     "Mobile Application and Cloud Computing/Comandi Git.md",
     "Malware Analysis/PDF Practice/MAIF+SES-2024-Lab04-Reverse_code.pdf",
     "Mobile Application and Cloud Computing/6) PAAS AND SAAS.md",
-    "Mobile Application and Cloud Computing/PDF/06_PAAS_SAAS.pdf",
     "Mobile Application and Cloud Computing/5) Meeting Docker.md",
     "Malware Analysis/6) MAIF - Models for threat intelligence.md",
     "Malware Analysis/5) MAIF+MA Basic Dynamic Analysis.md",
@@ -228,8 +230,6 @@
     "Mobile Application and Cloud Computing/3-4) Cloud.md",
     "Mobile Application and Cloud Computing/2) Patterns.md",
     "Mobile Application and Cloud Computing/1) Introduction.md",
-    "Malware Analysis/Lab 3 Malware Analysis.md",
-    "MW36.md",
-    "M13.md"
+    "Malware Analysis/Lab 3 Malware Analysis.md"
   ]
 }

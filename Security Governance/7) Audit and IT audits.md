@@ -1,668 +1,761 @@
 # Audit and IT audits
+## Introduzione
+```ad-info
 
-## Intro
-- We explore the fundamental principles of auditing and connect them to cybersecurity assurance, governance, and IT control frameworks
-- We introduce core objectives, key methodologies, and the professional mindset required of auditors operating within complex digital ecosystems
-## Overview
-- Auditing is the systematic and independent evaluation of processes, systems, and controls to ensure that objectives are achieved effectively and securely
-- We bridge classical audit theory and contemporary cybersecurity practice, explaining risk-based approaches, evidence collection, and control verification as tools for organizational assurance
-## Outcomes
-Ability to
-- Define *audit* and *assurance* within a cybersecurity context
-- Explain the principles of risk-based auditing
-- Identify major control and governance
-- Describe IT General Controls and their relevance to information integrity
-- Apply audit reasoning to evaluate cybersecurity and compliance mechanisms
+Questo corso esplora i **principi fondamentali dell'auditing** e li collega alla **sicurezza informatica, alla governance e ai framework di controllo IT**. Vengono introdotti gli **obiettivi** principali, le **metodologie** chiave e la **mentalità** professionale richiesta agli auditor che operano in ecosistemi digitali complessi.
+```
 
-## Motivation
-- Digital trust depends on the demonstrable integrity of systems and data
-- Auditing transforms technical compliance into credible assurance, enabling transparency, accountability, and stakeholder confidence in organization’s cybersecurity posture
+```ad-abstract
+title: Definition
 
-## Audit versus Inspection
-Auditing is an evidence-based, risk-focused process that evaluates the design and effectiveness of controls
+L'auditing è la valutazione sistematica e indipendente di processi, sistemi e controlli per garantire il raggiungimento efficace e sicuro degli obiettivi organizzativi. 
+```
 
-Unlike inspections (rule-based and punitive), audits aim to understand whether governance, risk management, and control mechanisms adequately support strategic objectives
+Il corso collega la teoria classica dell'audit alla pratica moderna della cybersecurity, spiegando approcci basati sul rischio, raccolta di evidenze e verifica dei controlli come strumenti per fornire assurance all'organizzazione.
 
-## Historical Evolution
-- Auditing originated in financial accountability, ensuring that records accurately reflected transactions
-- With the rise of information systems, the discipline evolved toward IT auditing, verifying data reliability, system integrity, and control adequacy
-- Modern audit objectives extend to cybersecurity, privacy, and digital resilience
+## Risultati di apprendimento
+Al termine del corso, lo studente sarà in grado di:
 
-## The Role of IT Auditors
-- IT auditors assess system controls across access, change management, and operations
-- Role is to verify that CIA triad is maintained and that governance structures effectively manage technological risk
-## Professional Context
-- Professional certifications (CISA, ISO 27001 Lead Auditor, ISACA frameworks, etc.) define competence standards in auditing and cybersecurity assurance
-- These credentials validate knowledge of audit processes, ethical codes, and regulatory requirements across industries
-## Definition of an Audit
-- According to ISO 19011, **an audit is a systematic, independent, and documented process for obtaining evidence and evaluating it objectively against established criteria**
+- Definire _audit_ e _assurance_ nel contesto della cybersecurity
+- Spiegare i principi dell'auditing basato sul rischio
+- Identificare i principali framework di controllo e governance
+- Descrivere gli IT General Controls e la loro rilevanza per l'integrità delle informazioni
+- Applicare il ragionamento audit per valutare meccanismi di cybersecurity e compliance
 
-- The outcome provides assurance regarding compliance, performance, or governance effectiveness
-## Objectives of Auditing
-- Audits aim to verify that policies, controls, and operations achieve their intended outcomes
-- They provide confidence to management, regulators, and external stakeholders about the organization’s reliability, integrity, and security posture
-## Audit Types
-Common methodology, different focus  
-- Financial Audit: validates the accuracy of financial statements  
-- Operational Audit: evaluates efficiency and effectiveness of processes  
-- Compliance Audit: tests adherence to laws, regulations, or standards  
-- Performance Audit: measures achievement of objectives  
-- IT Audit: examines technological infrastructure and control environment  
-- More...
-## Audit Principles
-Integrity and ethical conduct  
-Independence and objectivity  
-Due professional care and competence  
-Evidence-based approach  
-Confidentiality and discretion  
-Professional skepticism and judgment
+## Motivazione
+La fiducia digitale dipende dall'integrità dimostrabile di sistemi e dati. L'auditing trasforma la compliance tecnica in assurance credibile, abilitando trasparenza, accountability e fiducia degli stakeholder nella postura di sicurezza dell'organizzazione.
+
+## Concetti fondamentali
+
+### Audit vs Ispezione
+
+L'==auditing== è un processo basato su evidenze e focalizzato sul rischio che valuta il design e l'efficacia dei controlli. A differenza delle ispezioni (basate su regole e punitive), **gli audit mirano a comprendere se i meccanismi di governance, gestione del rischio e controllo supportano adeguatamente gli obiettivi strategici**.
+
+### Evoluzione storica
+L'auditing ha origine nell'accountability finanziaria per garantire che i registri riflettessero accuratamente le transazioni. Con l'avvento dei sistemi informativi, la disciplina si è evoluta verso l'IT auditing, verificando affidabilità dei dati, integrità dei sistemi e adeguatezza dei controlli. Gli obiettivi moderni si estendono a cybersecurity, privacy e resilienza digitale.
+
+### Il ruolo degli IT auditor
+Gli ==IT auditor== valutano i controlli di sistema relativi ad accesso, change management e operazioni. Il loro ruolo è verificare che la **triade CIA (Confidentiality, Integrity, Availability)** sia **mantenuta** e che le **strutture di governance gestiscano efficacemente il rischio tecnologico**.
+
+In un **_contesto professionale_**:
+Le ==certificazioni professionali== (CISA, ISO 27001 Lead Auditor, framework ISACA, ecc.) **definiscono gli standard di competenza in auditing e assurance della cybersecurity**. Queste credenziali validano la conoscenza dei processi di audit, codici etici e requisiti normativi trasversali ai settori industriali.
+
+## Definizione e obiettivi dell'audit
+
+### Definizione
+Secondo la ==ISO 19011==, un **_audit_** è un processo sistematico, indipendente e documentato per ottenere evidenze e valutarle oggettivamente rispetto a criteri stabiliti. Il risultato fornisce assurance riguardo compliance, performance o efficacia della governance.
 
 
+```ad-success
+title: Goal Audit
+Gli ==audit== mirano a **verificare** che policy, controlli e operazioni **raggiungano i risultati attesi**. Forniscono fiducia a management, regolatori e stakeholder esterni sulla affidabilità, integrità e postura di sicurezza dell'organizzazione.
+
+```
+
+### Tipologie di audit
+Tutti seguono una metodologia comune ma con focus diversi:
+
+- **Financial Audit**: valida l'accuratezza dei rendiconti finanziari
+- **Operational Audit**: valuta efficienza ed efficacia dei processi
+- **Compliance Audit**: testa l'aderenza a leggi, regolamenti o standard
+- **Performance Audit**: misura il raggiungimento degli obiettivi
+- **IT Audit**: esamina l'infrastruttura tecnologica e l'ambiente di controllo
+
+### Principi dell'audit
+- Integrità e condotta etica
+- Indipendenza e obiettività
+- Dovuta diligenza professionale e competenza
+- Approccio basato su evidenze
+- Riservatezza e discrezione
+- Scetticismo professionale e giudizio critico
 ## Assurance
+### Definizione
+L'==assurance== è una **valutazione indipendente e obiettiva che fornisce fiducia agli stakeholder sull'affidabilità, integrità ed efficacia dei processi, controlli o informazioni di un'organizzazione**. L'assurance è sia un engagement che il suo risultato: deriva da attività di audit o review che generano conclusioni basate su evidenze.
 
-**_Definition_**
-- An independent and objective evaluation that provides confidence to stakeholders about the reliability, integrity, and effectiveness of an organization’s processes, controls, or information
-- Assurance is both an engagement and its outcome: it results from audit or review activities that generate evidence-based conclusions
+### Caratteristiche chiave
+- **Indipendente**: eseguita da parti non coinvolte nelle operazioni (audit interno, audit esterno, enti di certificazione)
+- **Obiettiva**: basata su evidenze, libera da bias o influenze
+- **Guidata da evidenze**: le conclusioni si basano su dati verificabili e test documentati
+- **Scopo**: accrescere la fiducia nelle asserzioni del management e nei processi di governance
 
-**_Key Features_**
-- Independent: performed by parties not involved in operations (e.g., internal audit, external audit, certification bodies)
-- Objective: evidence-based, free from bias or influence
-- Evidence-driven: conclusions rely on verifiable data and documented testing
-- Purpose: to enhance trust in management assertions and governance processes
+### Livelli di assurance
+- **Reasonable assurance**: alta ma non assoluta confidenza, basata su campionamento e test sufficienti
+- **Limited assurance**: confidenza moderata, tipica degli engagement di review
+- **No assurance**: osservazioni puramente descrittive o consultive
 
-## Risk Management and Assurance: Two Complementary Perspectives
+```ad-attention
+title: Risultati negativi forniscono comunque assurance
+L'==assurance== **non significa necessariamente un risultato positivo**. 
+Rappresenta confidenza basata su evidenze, che i risultati siano buoni o cattivi. Quando un audit rivela debolezze o non conformità, fornisce comunque assurance sullo stato reale dei controlli. Anche un esito negativo dà assurance: assicura che i controlli non soddisfano gli standard attesi. Il valore dell'assurance risiede nella trasparenza e affidabilità, non in risultati favorevoli.
 
-| Objective      | Risk Management                                                | Assurance (Internal Audit)                                           |
-| -------------- | -------------------------------------------------------------- | -------------------------------------------------------------------- |
-| Objective      | Identify, assess, and mitigate threats to achieving objectives | Provide independent evaluation of how risks and controls are managed |
-| Responsibility | Management and operational staff                               | Internal audit and other assurance providers                         |
-| Nature of Work | Proactive and continuous                                       | Reactive and periodic (independent review)                           |
-| Focus          | Managing risk exposure and implementing controls               | Testing, verifying, and reporting on control effectiveness           |
-| Output         | Risk registers, mitigation plans, risk appetite statements     | Audit reports, assurance opinions, recommendations                   |
-| Time Horizon   | Forward Looking                                                | Retrospective and evaluative                                         |
-| Key Question   | "Are we managing our risks effectively?"                       | Is our risk management effective?                                    |
+```
 
-## From Audit to Assurance
-- **Audit** is an independent evaluation of processes, controls, or information against defined criteria
-- **Assurance** is the confidence or trust provided as a result of that evaluation
-  - audit is the process; assurance is the outcome
-- **Auditing** provides the evidence base that supports **assurance** about the reliability and effectiveness of an organization’s controls and processes
-- **Assurance** reflects an independent and objective assessment
+## Risk Management e Assurance
 
-## Levels of Assurance
-- Reasonable assurance: high but not absolute confidence, based on sampling and sufficient testing
-- Limited assurance: moderate confidence, often in review engagements
-- No assurance: purely descriptive or advisory observations
+### Due prospettive complementari
 
-![[ISG70.png]]
-
-## Negative Results Still Provide Assurance
-
-- Assurance does not mean a positive result
-- It represents confidence based on evidence, whether the findings are good or bad
-- When an audit reveals weaknesses or non-compliance, it still provides assurance about the true state of controls
-- Even a negative outcome gives assurance; it assures that controls do not meet the expected standards
-- The value of assurance lies in transparency and reliability, not in favorable results
-
-## Independence and Objectivity
-Independence safeguards impartiality and credibility  
-Auditors must avoid conflicts of interest, especially when auditing internal security functions  
-Objectivity requires assessing evidence without bias, regardless of organizational pressures
-
-## Professional Skepticism
-- A questioning attitude is essential to identify inconsistencies and potential misstatements
-- Auditors critically evaluate evidence, seek corroboration from multiple sources, and avoid relying solely on management assertions
-
-## Materiality
-Materiality defines the significance of an issue relative to the overall risk context  
-*In cybersecurity, a single privileged account misconfiguration may be materially significant if it exposes sensitive data or critical infrastructure*
-
-## Audit Evidence
-- Audit evidence must be sufficient (in quantity) and appropriate (in quality) to support conclusions
-- Reliable evidence strengthens the credibility of the auditor’s opinion
-- Key sources include
-	  - Documentation and records: policies, logs, reports, and configuration files
-	  - Observation of processes: direct review of control execution in real time
-	  - Interviews and inquiries: discussions with process owners to corroborate evidence
-	  - Analytical procedures: data comparisons, trend analysis, and correlation testing
-	  - Re-performance of controls: independent repetition of activities to confirm effectiveness
-- Principle: credible, verifiable, and traceable evidence underpins every audit conclusion
-
-## The Audit Process
-1. **Planning**: define objectives, scope, and criteria
-2. **Understanding** the system: gather context and identify controls
-3. **Risk assessment**: determine inherent and control risks (later)
-4. **Designing tests**: establish audit procedures and sampling
-5. **Collecting evidence**: execute fieldwork and document results
-6. **Evaluating results**: compare evidence to criteria
-7. **Reporting**: summarize findings, conclusions, and recommendations
-
-## Audit Documentation
-- Workpapers record the procedures performed, evidence obtained, and reasoning applied
-- They enable reproducibility, peer review, and traceability, ensuring that each audit conclusion is logically supported by documented evidence
-
-## Ethics & Quality Assurance
-- Auditors must uphold ethical codes emphasizing confidentiality, objectivity, and competence
-- Ethical lapses undermine trust, damage professional credibility, and may invalidate assurance engagements
-- Quality assurance mechanisms (internal reviews, peer evaluations, and external assessments) ensure conformity with professional standards
-- Continuous improvement reinforces the reliability and relevance of the audit function
-
-## Common Challenges
-Modern auditing faces new complexities  
-- Massive data volumes and automation  
-- Evolving cybersecurity threats and cloud environments  
-- Integration of AI and analytics in control testing  
-
-The discipline adapts through continuous auditing, data-driven testing, and risk intelligence  
-
-## From Theory to Application
-- Auditing in cybersecurity translates traditional assurance principles to digital evidence
-- Logs, configuration exports, access-control matrices, and forensic artifacts replace financial records as audit objects, maintaining the same rigor in evidence evaluation
-
-## Summary
-- Auditing establishes trust through independent evaluation of governance and control mechanisms
-- Understanding these foundations is essential before approaching risk-based auditing and framework-driven IT assurance
-
-
-## External audit
-- Conducted by independent auditors or assurance firms, external to the organization
-- Provides reasonable assurance on the accuracy, fairness, and reliability of financial statements or service organization controls
-- Follows international standards such as
-	  - ISA (International Standards on Auditing)
-	  - ISAE 3402 and SSAE 18 for assurance engagements (later)
-- Ensures credibility and transparency for investors, regulators, and other stakeholders
-- Typically periodic, not continuous, and subject to formal reporting obligations
-- Focus: external accountability, regulatory compliance, and public trust
-## Internal Audit
-
-- Performed by an independent function within the organization, reporting to the board or audit committee
-- Objective: evaluate and improve governance, risk management, and internal control effectiveness
-- Based on frameworks like
-  - COSO Internal Control
-  - COBIT
-  - ISO 9001 / ISO 27001
-- Operates on a continuous and improvement-oriented basis
-- Provides management with insights and recommendations to strengthen operations and reduce risks
-- Focus: internal value creation, control maturity, and process improvement
-
-## Internal vs External Audit
-
-| Aspect    | Internal Audit    | External Audit    |
+|Aspetto|Risk Management|Assurance (Internal Audit)|
 |---|---|---|
-| **Position**    | Part of the organization    | Independent from the organization    |
-| **Objective**    | Improve processes, governance, and controls    | Provide external assurance on statements or systems    |
-| **Frequency**    | Continuous or periodic    | Typically annual or engagement-based    |
-| **Reporting line**    | Management / Audit Committee    | Board, shareholders, regulators, clients    |
-| **Primary standards**  | COSO, COBIT, ISO frameworks    | ISAE 3000/3402, ISA, SSAE 18    |
-| **Focus**    | Efficiency, risk, control effectiveness    | Accuracy, compliance, reliability    |
-| **Nature**    | Advisory and preventive    | Certifying and evidential    |
+|**Obiettivo**|Identificare, valutare e mitigare minacce al raggiungimento degli obiettivi|Fornire valutazione indipendente su come rischi e controlli sono gestiti|
+|**Responsabilità**|Management e staff operativo|Internal audit e altri fornitori di assurance|
+|**Natura del lavoro**|Proattivo e continuo|Reattivo e periodico (revisione indipendente)|
+|**Focus**|Gestire l'esposizione al rischio e implementare controlli|Testare, verificare e reportare sull'efficacia dei controlli|
+|**Output**|Risk register, piani di mitigazione, risk appetite statement|Report di audit, opinion di assurance, raccomandazioni|
+|**Orizzonte temporale**|Prospettico|Retrospettivo e valutativo|
+|**Domanda chiave**|"Stiamo gestendo efficacemente i nostri rischi?"|"La nostra gestione del rischio è efficace?"|
+
+### Da audit a assurance
+L'==audit== è una **valutazione indipendente di processi, controlli o informazioni** rispetto a criteri definiti. L'==assurance== è la **fiducia o confidenza fornita come risultato di quella valutazione**. In sintesi: l'audit è il processo, l'assurance è il risultato. L'auditing fornisce la base di evidenze che supporta l'assurance sull'affidabilità ed efficacia dei controlli e processi di un'organizzazione.
+
+## Principi operativi dell'audit
+### Indipendenza e obiettività
+- L'==indipendenza== salvaguarda **imparzialità e credibilità**. Gli auditor devono evitare conflitti di interesse, specialmente quando auditano funzioni di sicurezza interne. 
+- L'==obiettività== richiede di **valutare le evidenze senza bias**, indipendentemente dalle pressioni organizzative.
+
+```ad-important
+title: Scetticismo Professionale
+Un **_atteggiamento critico_** è essenziale per identificare incongruenze e potenziali errori. Gli auditor valutano criticamente le evidenze, cercano corroborazione da fonti multiple ed evitano di basarsi esclusivamente sulle asserzioni del management.
+
+```
+
+### Materialità
+La ==materialità== definisce la **significatività di un problema rispetto al contesto di rischio complessivo**. 
+
+```ad-example
+
+In cybersecurity, una singola configurazione errata di un account privilegiato può essere materialmente significativa se espone dati sensibili o infrastrutture critiche.
+```
+
+### Evidenze di audit
+Le ==evidenze di audit== devono essere **sufficienti (in quantità)** e **appropriate (in qualità)** per supportare le conclusioni. Evidenze affidabili rafforzano la credibilità dell'opinione dell'auditor.
+
+Fonti chiave di evidenza:
+- **Documentazione e registrazioni**: policy, log, report e file di configurazione
+- **Osservazione dei processi**: revisione diretta dell'esecuzione dei controlli in tempo reale
+- **Interviste e indagini**: discussioni con i process owner per corroborare le evidenze
+- **Procedure analitiche**: confronti di dati, analisi di trend e test di correlazione
+- **Re-esecuzione dei controlli**: ripetizione indipendente delle attività per confermarne l'efficacia
+
+>Principio: evidenze credibili, verificabili e tracciabili sostengono ogni conclusione di audit.
+
+## Il processo di audit
+1. **Pianificazione**: definire obiettivi, scope e criteri
+2. **Comprensione del sistema**: raccogliere contesto e identificare controlli
+3. **Valutazione del rischio**: determinare rischi inerenti e di controllo
+4. **Progettazione dei test**: stabilire procedure di audit e campionamento
+5. **Raccolta delle evidenze**: eseguire fieldwork e documentare i risultati
+6. **Valutazione dei risultati**: confrontare le evidenze con i criteri
+7. **Reporting**: riepilogare finding, conclusioni e raccomandazioni
+### Documentazione dell'audit
+I workpaper registrano le procedure eseguite, le evidenze ottenute e il ragionamento applicato. Abilitano riproducibilità, peer review e tracciabilità, garantendo che ogni conclusione di audit sia logicamente supportata da evidenze documentate.
+## Etica e qualità
+### Etica professionale
+Gli auditor devono rispettare codici etici che enfatizzano riservatezza, obiettività e competenza. Violazioni etiche minano la fiducia, danneggiano la credibilità professionale e possono invalidare gli engagement di assurance.
+
+### Quality assurance
+Meccanismi di ==quality assurance== (revisioni interne, valutazioni tra pari e assessment esterni) **assicurano conformità agli standard professionali**. Il miglioramento continuo rafforza affidabilità e rilevanza della funzione di audit.
+
+## Sfide moderne
+L'auditing moderno affronta nuove complessità:
+- **Volumi massivi** di dati e automazione
+- **Minacce** di cybersecurity in **evoluzione** e ambienti cloud
+- Integrazione di **AI** e **analytics** nel testing dei controlli
+
+>La disciplina si adatta attraverso continuous auditing, test data-driven e risk intelligence.
+
+## Dall'teoria all'applicazione
+L'auditing in cybersecurity traduce i principi tradizionali di assurance alle evidenze digitali. Log, export di configurazioni, matrici di controllo accessi e artefatti forensi sostituiscono i registri finanziari come oggetti di audit, mantenendo lo stesso rigore nella valutazione delle evidenze.
+
+## Audit esterno vs audit interno
+
+### Audit esterno
+Condotto da **_auditor indipendenti_** o **_società di assurance_**, esterni all'organizzazione. 
+Fornisce reasonable assurance sull'accuratezza, correttezza e affidabilità dei rendiconti finanziari o dei controlli di service organization.
+
+Segue standard internazionali quali:
+- **ISA** (International Standards on Auditing)
+- **ISAE 3402** e **SSAE 18** per engagement di assurance
+
+Assicura credibilità e trasparenza per investitori, regolatori e altri stakeholder. Tipicamente periodico, non continuo, e soggetto a obblighi formali di reporting.
+
+**Focus**: accountability esterna, compliance normativa e fiducia pubblica.
+
+### Audit interno
+Eseguito da una **_funzione indipendente all'interno dell'organizzazione_**, che riporta al board o al comitato di audit.
+
+**Obiettivo**: valutare e migliorare l'efficacia di governance, gestione del rischio e controllo interno.
+
+Basato su framework come:
+- **COSO** Internal Control
+- **COBIT**
+- **ISO 9001** / **ISO 27001**
+
+Opera su base continua e orientata al miglioramento. Fornisce al management insight e raccomandazioni per rafforzare le operazioni e ridurre i rischi.
+
+**Focus**: creazione di valore interno, maturità dei controlli e miglioramento dei processi.
+
+### Confronto
+
+|Aspetto|Audit interno|Audit esterno|
+|---|---|---|
+|**Posizione**|Parte dell'organizzazione|Indipendente dall'organizzazione|
+|**Obiettivo**|Migliorare processi, governance e controlli|Fornire assurance esterna su statement o sistemi|
+|**Frequenza**|Continuo o periodico|Tipicamente annuale o per engagement|
+|**Linea di reporting**|Management / Comitato di audit|Board, azionisti, regolatori, clienti|
+|**Standard principali**|COSO, COBIT, framework ISO|ISAE 3000/3402, ISA, SSAE 18|
+|**Focus**|Efficienza, rischio, efficacia dei controlli|Accuratezza, compliance, affidabilità|
+|**Natura**|Consultivo e preventivo|Certificativo e evidenziale|
+
+
+```ad-note
+title: Sintesi
+
+L'==auditing== stabilisce fiducia attraverso la valutazione indipendente dei meccanismi di governance e controllo. Comprendere questi fondamenti è essenziale prima di affrontare l'auditing basato sul rischio e l'assurance IT guidata da framework.
+```
+
 
 # Risk-Based Auditing and Frameworks
-## Introduction to Risk-Based Auditing
 
-- Risk-based auditing focuses audit efforts on areas where the probability and impact of failure are greatest
-- By prioritizing high-risk domains, it ensures efficient resource allocation and enhances the relevance of findings
-- This approach aligns audit scope with organizational objectives, emphasizing proactive assurance over reactive verification
+## Introduzione al Risk-Based Auditing
+==Il risk-based auditing== (audit basato sul rischio) è un metodo che concentra i controlli dove i rischi sono più alti, cioè dove è **più probabile** che si verifichi un problema e dove le **conseguenze** sarebbero più gravi.
 
-## The Audit Risk Model
+Invece di controllare tutto allo stesso modo, l’auditor dà **priorità alle aree critiche**, così:
+- si **usano meglio le risorse** (tempo e persone);
+- i risultati dell’audit (**finding**) sono **più utili e mirati**;
+- l’attività di audit è **coerente con gli obiettivi dell’organizzazione**;
+- si passa da un approccio **reattivo** (scoprire gli errori dopo) a uno **proattivo** (prevenirli in anticipo).
+## Il modello di audit risk
+### Formula del rischio
+**Audit Risk (AR) = Inherent Risk × Control Risk × Detection Risk**
 
-- Audit Risk (AR) = Inherent Risk × Control Risk × Detection Risk
-	- Inherent Risk: likelihood that an error or irregularity may occur in the absence of internal controls
-	- Control Risk: likelihood that existing internal controls fail to prevent or detect such an error
-	- Detection Risk: likelihood that audit procedures fail to identify the remaining error
-- Managing audit risk involves balancing test depth, evidence sufficiency, and assurance confidence
-## Inherent and Control Risk
-- Inherent Risk reflects the intrinsic vulnerability of a process or system
-- Control Risk depends on the design and operational effectiveness of safeguards
+- **Inherent Risk (IR)**: probabilità che si verifichi un errore o un'irregolarità in assenza di controlli interni.
+- **Control Risk (CR)**: probabilità che i controlli interni esistenti falliscano nel prevenire o rilevare tale errore.
+- **Detection Risk (DR)**: probabilità che le procedure di audit falliscano nell'identificare l'errore residuo.
 
-An accurate understanding of both enables the auditor to design proportionate testing strategies and avoid redundant procedures
-## Detection Risk
-- The likelihood that audit procedures fail to detect a material error or control weakness
-- It depends on the nature, timing, and extent of audit testing, as well as on the effectiveness of procedures and auditor judgment
-- Key aspects
-	- O Inversely related to the level of assurance: lower DR → higher confidence
-	- O Managed through increased sample size, test depth, and corroborating evidence
-	- O Influenced by auditor competence, automation tools, and time constraints
-	- O Balancing DR with inherent and control risks ensures the overall audit risk remains at an acceptable level
+>Gestire l'**audit risk** implica bilanciare profondità dei test, sufficienza delle evidenze e livello di confidenza dell'assurance.
+
+### Inherent Risk e Control Risk
+
+- L'==Inherent Risk== riflette la vulnerabilità intrinseca di un processo o sistema. 
+- Il ==Control Risk== dipende dal design e dall'efficacia operativa delle misure di protezione. Una comprensione accurata di entrambi consente all'auditor di progettare strategie di testing proporzionate ed evitare procedure ridondanti.
+
+### Detection Risk
+Il ==Detection Risk== rappresenta la probabilità che le procedure di audit falliscano nel rilevare un errore materiale o una debolezza di controllo. Dipende da natura, tempistica ed estensione dei test, oltre che dall'efficacia delle procedure e dal giudizio dell'auditor.
+
+Aspetti chiave:
+- Inversamente correlato al livello di assurance: DR più basso → maggiore confidenza
+- Gestito attraverso aumento della dimensione del campione, profondità dei test ed evidenze corroboranti
+- Influenzato da competenza dell'auditor, strumenti di automazione e vincoli temporali
+- Bilanciare DR con inherent e control risk assicura che l'audit risk complessivo rimanga a un livello accettabile
 
 ```ad-example
-If inherent and control risks are high, detection risk must be reduced by applying more extensive or rigorous audit procedures.
 
+Se inherent e control risk sono elevati, il detection risk deve essere ridotto applicando procedure di audit più estensive o rigorose.
 ```
-## Materiality
-- **Materiality is the threshold beyond which an error or control weakness becomes significant enough to influence decisions or audit conclusions**
-- It guides the scope, depth, and prioritization of audit work
-- Key aspects
-	- Quantitative: measurable impact or size of error
-	- Qualitative: sensitivity or nature of the issue
-	- Contextual: depends on risk appetite and regulatory expectations
-- In cybersecurity, even a single critical vulnerability can be material if it threatens core systems or sensitive data`
-## Materiality and Risk
-- Materiality thresholds define which control weaknesses or incidents are significant enough to influence the auditor's conclusions or stakeholder decisions
-- In a cybersecurity audit, even low-likelihood events (e.g., a privileged-access breach) may be material if their potential impact is critical
-- Materiality interacts with the audit-risk model (AR = IR × CR × DR): higher inherent or control risk, or limited detection capability, requires a lower materiality threshold and expanded testing
-- Together, risk and materiality guide audit judgment, sampling strategy, and evidence evaluation
+
+## Materialità
+```ad-abstract
+title: Definition
+
+La ==materialità== è la soglia oltre la quale un errore o una debolezza di controllo diventa abbastanza significativa da influenzare decisioni o conclusioni di audit. Guida scope, profondità e prioritizzazione del lavoro di audit.
+```
+
+==Aspetti chiave==
+- **Quantitativo**: impatto misurabile o dimensione dell'errore
+- **Qualitativo**: sensibilità o natura del problema
+- **Contestuale**: dipende da risk appetite ed aspettative normative
+
+In cybersecurity, anche una singola vulnerabilità critica può essere materiale se minaccia sistemi core o dati sensibili.
+
+### Materialità e rischio
+Le soglie di materialità definiscono quali debolezze di controllo o incidenti sono abbastanza significativi da influenzare le conclusioni dell'auditor o le decisioni degli stakeholder. In un audit di cybersecurity, anche eventi a bassa probabilità (es. breach di accesso privilegiato) possono essere materiali se il loro impatto potenziale è critico.
+
+La materialità interagisce con il modello di audit risk ($AR = IR × CR × DR$): maggiori inherent o control risk, o capacità di detection limitata, richiedono una soglia di materialità più bassa e test più estesi. Insieme, rischio e materialità guidano giudizio di audit, strategia di campionamento e valutazione delle evidenze.
+
 ## Assertions
-- Claims made by management regarding data, processes, or systems
-- Common categories include
-	- Existence: the item or control actually exists
-	- Completeness: all relevant elements are included
-	  - Accuracy: information is recorded correctly
-	- Authorization: actions are properly approved
-	- Presentation: data are appropriately disclosed or formatted
-- Auditors design tests to verify each assertion objectively
+Le ==assertions== sono affermazioni fatte dal management riguardo dati, processi o sistemi. Categorie comuni includono:
+- **Existence**: l'elemento o controllo esiste effettivamente
+- **Completeness**: tutti gli elementi rilevanti sono inclusi
+- **Accuracy**: le informazioni sono registrate correttamente
+- **Authorization**: le azioni sono propriamente approvate
+- **Presentation**: i dati sono appropriatamente divulgati o formattati
+
+Gli auditor progettano test per verificare oggettivamente ciascuna assertion.
+
 ## COSO
-- Committee of Sponsoring Organizations of the Treadway Commission
-- Private, U.S.-based initiative established in 1985 to improve the quality of financial reporting and **internal control**
-- Created in response to corporate frauds of the early 1980s, following recommendations of the Treadway Commission on fraudulent financial reporting
-- Sponsored by five professional associations: AICPA, IIA, FEI, IMA, and AAA
-- In 1992, COSO released the Internal Control — Integrated Framework, later expanded to Enterprise Risk Management (ERM) (2004, 2017)
-- COSO provides the global foundation for modern internal control and risk management frameworks
-## Internal Controls
-- **Definition**: Processes, policies, and procedures established to ensure objectives are achieved effectively, efficiently, and ethically
-- **Purpose**: Protect assets, ensure reliable reporting, and support legal and policy compliance
-- COSO view (1992, 2013): *A process effected by the board, management, and staff to provide reasonable assurance on operations, reporting, and compliance*
-- **Nature**: Ongoing, embedded in daily activities
-- **Relevance**: The foundation of every audit, risk management, and governance system
+### Contesto storico
+Il ==Committee of Sponsoring Organizations of the Treadway Commission== (==COSO==) è **un'iniziativa privata statunitense** istituita nel 1985 **per migliorare la qualità del reporting finanziario e del controllo interno**. Creato in risposta alle frodi aziendali dei primi anni '80, seguendo le raccomandazioni della Treadway Commission sul reporting finanziario fraudolento.
 
-## The COSO Model
-- **The COSO Framework defines five interrelated components of internal control**
-   - 1. **Control Environment**: ethical tone, governance, and accountability
-   - 2. **Risk Assessment**: identifying and evaluating risks to objectives
-   - 3. **Control Activities**: policies and procedures mitigating those risks
-   - 4. **Information & Communication**: ensuring reliable data flow
-   - 5. **Monitoring**: evaluating control performance over time
+Sponsorizzato da cinque associazioni professionali: AICPA, IIA, FEI, IMA e AAA.
 
-- **COSO remains a cornerstone for both financial and IT control systems.**
-## Objectives of Internal Control
-1. Operations: ensure effective and efficient use of resources to achieve organizational goals
-2. Reporting: maintain reliable, timely, and transparent financial and non-financial reporting
-3. Compliance: adhere to applicable laws, regulations, and internal policies
+Nel 1992, COSO ha rilasciato l'Internal Control — Integrated Framework, successivamente espanso all'Enterprise Risk Management (ERM) nel 2004 e 2017.
 
-## Control Types
-- Classified by purpose and execution
-  - **Preventive Controls**: stop errors or incidents before occurrence
-    - access restrictions
-  - **Detective Controls**: identify issues after occurrence
-    - log monitoring
-  - **Corrective Controls**: restore normal conditions
-    - patch deployment
-- Controls may also be manual or automated, each with distinct reliability profiles
-## Control Objectives
-- To ensure the CIA triad within information systems
-  - Access control to preserve confidentiality
-  - Input validation to protect integrity
-  - Redundancy and backups to guarantee availability
+>COSO fornisce la base globale per i moderni framework di controllo interno e gestione del rischio.
 
-- Together, these objectives sustain operational resilience and trust in digital infrastructure
+### Controlli interni
 
-## The Risk-Control-Test Relationship
-- Each risk maps to one or more controls, and each control is verified through specific tests
-- This matrix (Risk and Control Matrix, RCM) provides transparency and traceability
-- It links audit scope, procedures, and evidence directly to organizational risk priorities
+**Definizione**: Processi, policy e procedure stabiliti per garantire che gli obiettivi siano raggiunti efficacemente, efficientemente ed eticamente.
 
-## RCM Example
-- 1-line RCM
+**Scopo**: Proteggere gli asset, garantire reporting affidabile e supportare compliance legale e normativa.
 
-| Risk    | Control    | Test Procedure | Evidence |
+Visione COSO (1992, 2013): Un processo attuato da board, management e personale per fornire reasonable assurance su operazioni, reporting e compliance.
+
+**Natura**: Continuativo, integrato nelle attività quotidiane.
+
+**Rilevanza**: La fondazione di ogni sistema di audit, risk management e governance.
+
+### Il modello COSO
+Il ==COSO Framework== definisce **cinque componenti interrelate del controllo interno**:
+
+1. **Control Environment**: tono etico, governance e accountability
+2. **Risk Assessment**: identificazione e valutazione dei rischi per gli obiettivi
+3. **Control Activities**: policy e procedure che mitigano tali rischi
+4. **Information & Communication**: garantire flusso affidabile di dati
+5. **Monitoring**: valutare la performance dei controlli nel tempo
+
+COSO rimane una pietra miliare sia per i sistemi di controllo finanziario che IT.
+
+### Obiettivi del controllo interno
+
+1. **Operations**: garantire uso efficace ed efficiente delle risorse per raggiungere gli obiettivi organizzativi
+2. **Reporting**: mantenere reporting finanziario e non finanziario affidabile, tempestivo e trasparente
+3. **Compliance**: aderire a leggi, regolamenti e policy interne applicabili
+
+## Tipologie e obiettivi dei controlli
+
+### Classificazione per scopo ed esecuzione
+
+- **Controlli preventivi**: bloccano errori o incidenti prima che si verifichino (es. restrizioni di accesso)
+- **Controlli detective**: identificano problemi dopo il verificarsi (es. monitoraggio dei log)
+- **Controlli correttivi**: ripristinano condizioni normali (es. deployment di patch)
+
+I controlli possono essere anche manuali o automatizzati, ciascuno con profili di affidabilità distinti.
+
+### Control objectives
+
+Garantire la triade CIA all'interno dei sistemi informativi:
+- **Controllo degli accessi** per preservare la **confidenzialità**
+- **Validazione degli input** per proteggere l'**integrità**
+- **Ridondanza e backup** per garantire la **disponibilità**
+
+>Insieme, questi obiettivi sostengono resilienza operativa e fiducia nell'infrastruttura digitale.
+
+## Risk-Control-Test Relationship
+**Ogni rischio si collega a uno o più controlli**, e **ogni controllo è verificato attraverso test specifici**. Questa matrice (==Risk and Control Matrix==, RCM) fornisce trasparenza e tracciabilità. Collega scope di audit, procedure ed evidenze direttamente alle priorità di rischio organizzative.
+
+### Esempio di RCM
+
+|Rischio|Controllo|Procedura di test|Evidenza|
 |---|---|---|---|
-| Unauthorized access   | Enforcement of MFA    | Review system configuration and test authentication | Screenshot of policy settings, audit logs |
+|Accesso non autorizzato|Applicazione di MFA|Revisione configurazione sistema e test autenticazione|Screenshot impostazioni policy, audit log|
 
-- This structure allows clear documentation and supports reproducibility of audit conclusions
-## Sampling in Auditing
-- Testing every transaction is impractical, **sampling is done**
-  - Statistical
-  - Judgmental (non-statistical)
+Questa struttura consente documentazione chiara e supporta la riproducibilità delle conclusioni di audit.
 
-- Sampling must balance efficiency with assurance, ensuring that conclusions remain valid
+## Campionamento e valutazione delle evidenze
 
-## Evidence Evaluation
-- Evidence sufficiency and appropriateness depend on risk level and control criticality
-- High-risk areas demand corroboration from multiple evidence types: documents, logs, interviews, and re-performance
-- The auditor's professional judgment determines when the evidence base justifies a conclusion
-## Control Framework Overview
-Control frameworks translate governance principles into structured control sets
-They promote consistency, comparability, and accountability across organizations
-Frameworks like COSO, COBIT, ISO 27001, and NIST CSF help auditors benchmark practices and align with regulatory expectations
+### Sampling in auditing
+Testare ogni transazione è impraticabile, quindi si ricorre al campionamento:
+- Statistico
+- A giudizio (non statistico)
 
-## COSO again
-- COSO integrates objectives, components, and principles to support reliable internal control systems
-- Its structure (objectives, slide 39, and components, slide 38) creates a holistic approach adaptable to both financial and IT domains
-- It provides a conceptual foundation for subsequent frameworks like COBIT
+Il campionamento deve bilanciare efficienza con assurance, garantendo che le conclusioni rimangano valide.
+### Valutazione delle evidenze
+Sufficienza e appropriatezza delle evidenze dipendono dal livello di rischio e dalla criticità del controllo. Aree ad alto rischio richiedono corroborazione da più tipi di evidenze: documenti, log, interviste e re-esecuzione. Il giudizio professionale dell'auditor determina quando la base di evidenze giustifica una conclusione.
 
-## COBIT 2019
-- COBIT = Control Objectives for Information and Related Technologies
-  - from ISACA (Information Systems Audit and Control Association)
 
-- Defines governance and management objectives across domains
-	- <mark style="background: #D2B3FFA6;">Evaluate, Direct, Monitor (EDM) – strategic oversight and governance</mark>
-	- <mark style="background: #BBFABBA6;">Align, Plan, Organize (APO) – policy, strategy, and planning</mark>
-	- <mark style="background: #BBFABBA6;">Build, Acquire, Implement (BAI) – system development and integration</mark>
-	- <mark style="background: #BBFABBA6;">Deliver, Service, Support (DSS) – operations and service delivery</mark>
-	- <mark style="background: #BBFABBA6;">Monitor, Evaluate, Assess (MEA) – performance and compliance</mark>
-- COBIT aligns IT governance with business strategy and stakeholder value
+## Panoramica sui framework di controllo
+I framework di controllo traducono i principi di governance in set strutturati di controlli. Promuovono consistenza, comparabilità e accountability tra le organizzazioni. Framework come COSO, COBIT, ISO 27001 e NIST CSF aiutano gli auditor a benchmarking delle pratiche e all'allineamento con le aspettative normative.
 
-Management $\to$ <mark style="background: #BBFABBA6;">green</mark>
-Governance $\to$ <mark style="background: #D2B3FFA6;">purple</mark>
+### COBIT 2019
+**COBIT** = Control Objectives for Information and Related Technologies (di ISACA - Information Systems Audit and Control Association)
 
-## ISO/IEC 27001 and Annex A
-ISO/IEC 27001 establishes an Information Security Management System (ISMS), ensuring continuous protection of information assets 
-Annex A enumerates 93 controls across four themes: organizational, people, physical, and technological 
-These controls operationalize the ISMS and support certification-based assurance
+Definisce obiettivi di governance e management attraverso domini:
 
-## NIST CSF
-- The NIST CSF organizes cybersecurity activities into five core functions
-	  1. Identify – Understand assets, risks, and organizational context
-	  2. Protect – Implement safeguards to ensure data and service security
-	  3. Detect – Identify and analyze cybersecurity events
-	  4. Respond – Contain and mitigate incidents
-	  5. Recover – Restore capabilities and services after disruption
-- CSF 2.0 extends the framework to include governance and supply chain risk management, linking cybersecurity directly to business outcomes
+- **Evaluate, Direct, Monitor (EDM)**: supervisione strategica e governance
+- **Align, Plan, Organize (APO)**: policy, strategia e pianificazione
+- **Build, Acquire, Implement (BAI)**: sviluppo sistema e integrazione
+- **Deliver, Service, Support (DSS)**: operazioni e delivery dei servizi
+- **Monitor, Evaluate, Assess (MEA)**: performance e compliance
 
-## NIST SP 800-53
-NIST Special Publication 800-53 offers a detailed control catalog widely used by U.S. federal agencies
+COBIT allinea la governance IT con la strategia di business e il valore per gli stakeholder.
 
-It defines 20 control families, including Access Control, Audit and Accountability, System and Communications Protection, and Security Assessment and Authorization
+_Nota_: Management (APO, BAI, DSS, MEA) / Governance (EDM)
 
-Its rigor makes it a global reference for control design and testing in critical infrastructures
+### ISO/IEC 27001 e Annex A
+ISO/IEC 27001 stabilisce un Information Security Management System (ISMS), garantendo protezione continua degli asset informativi. L'Annex A enumera 93 controlli attraverso quattro temi: organizzativo, persone, fisico e tecnologico. Questi controlli operazionalizzano l'ISMS e supportano l'assurance basata su certificazione.
 
-## ISAE
-International Standard on Assurance Engagements
-It’s a category of professional standards issued by the International Auditing and Assurance Standards Board (IAASB) — part of the International Federation of Accountants (IFAC)
-Several documents on assurance.
+### NIST Cybersecurity Framework (CSF)
+Il NIST CSF organizza le attività di cybersecurity in cinque funzioni core:
 
-![[ISG71.png]]
+1. **Identify**: comprendere asset, rischi e contesto organizzativo
+2. **Protect**: implementare salvaguardie per garantire sicurezza di dati e servizi
+3. **Detect**: identificare e analizzare eventi di cybersecurity
+4. **Respond**: contenere e mitigare gli incidenti
+5. **Recover**: ripristinare capacità e servizi dopo un'interruzione
 
-### ISAE 3402: Overview
-ISAE 3402: Assurance for Service Organizations 
-- ISAE 3402 (Assurance Reports on Controls at a Service Organization) is an international standard issued by the IAASB (technical board of IFAC) 
-- It defines how an independent auditor evaluates and reports on the design and operating effectiveness of controls at a service organization 
-- Purpose: to provide assurance to user entities and their auditors that outsourced processes are reliable and well-controlled 
-- Applies to services that impact financial reporting, such as payroll, accounting, or data-hosting for ERP systems 
-- Scope: controls at third-party providers relevant to financial reporting
+CSF 2.0 estende il framework per includere governance e gestione del rischio della supply chain, collegando direttamente la cybersecurity ai risultati di business.
 
-### Service Organizations and User Entities
+### NIST SP 800-53
+NIST Special Publication 800-53 offre un catalogo dettagliato di controlli ampiamente utilizzato dalle agenzie federali statunitensi. Definisce 20 famiglie di controlli, inclusi Access Control, Audit and Accountability, System and Communications Protection, e Security Assessment and Authorization. Il suo rigore lo rende un riferimento globale per il design e il testing dei controlli in infrastrutture critiche.
 
-| Term    | Meaning    |
+
+## Standard di assurance: ISAE e SOC
+
+### ISAE (International Standard on Assurance Engagements)
+Categoria di standard professionali emessi dall'International Auditing and Assurance Standards Board (IAASB), parte dell'International Federation of Accountants (IFAC). Diversi documenti su assurance.
+
+### ISAE 3402: Panoramica
+**ISAE 3402** (Assurance Reports on Controls at a Service Organization) è uno standard internazionale emesso dall'IAASB. Definisce come un auditor indipendente valuta e riporta sul design e sull'efficacia operativa dei controlli presso un'organizzazione di servizi.
+
+**Scopo**: fornire assurance alle user entity e ai loro auditor che i processi in outsourcing sono affidabili e ben controllati.
+
+**Si applica a**: servizi che impattano il reporting finanziario, come payroll, contabilità o hosting dati per sistemi ERP.
+
+**Scope**: controlli presso fornitori terzi rilevanti per il reporting finanziario.
+
+### Service Organizations e User Entities
+
+|Termine|Significato|
 |---|---|
-| **Service Organization** | A third-party provider that performs functions for another entity which affect its financial reporting (e.g., payroll processor, data center) |
-| **User Entity** | The company that outsources part of its operations and relies on the service organization's controls |
-| **User Auditor** | The external auditor of the user entity who relies on the ISAE 3402 / SOC 1 report |
+|**Service Organization**|Fornitore terzo che esegue funzioni per un'altra entità che impattano il suo reporting finanziario (es. processore payroll, data center)|
+|**User Entity**|L'azienda che esternalizza parte delle sue operazioni e si affida ai controlli della service organization|
+|**User Auditor**|L'auditor esterno della user entity che si basa sul report ISAE 3402 / SOC 1|
 
-```ad-example
-A bank uses an external cloud provider to host its loan accounting platform: the provider is the service organization, and its controls are relevant to the bank's financial statements.
+**Esempio**: Una banca utilizza un cloud provider esterno per ospitare la sua piattaforma di contabilità prestiti: il provider è la service organization, e i suoi controlli sono rilevanti per i rendiconti finanziari della banca.
 
+### Tipi di report ISAE 3402
+
+|Tipo|Descrizione|Periodo coperto|Utilità|
+|---|---|---|---|
+|**Type I**|Design e implementazione dei controlli a un momento specifico|Una data|Verifica il design dei controlli|
+|**Type II**|Design ed efficacia operativa dei controlli in un periodo (6-12 mesi)|Periodo temporale|Testa la performance dei controlli|
+
+**Punto chiave**: I report Type II forniscono assurance più forte perché testano se i controlli hanno operato efficacemente nel tempo.
+
+### Relazione con i SOC Reports (AICPA)
+L'AICPA (U.S.) ha sviluppato il framework di reporting SOC sotto SSAE 18, che rispecchia i principi di ISAE 3402. Entrambi gli standard descrivono lo stesso tipo di engagement: assurance sui controlli presso service organization.
+
+- SOC 1 reports = equivalente statunitense di ISAE 3402
+- I SOC report si espandono oltre il reporting finanziario attraverso SOC 2 e SOC 3
+- ISAE 3402: standard internazionale
+- SOC 1: implementazione statunitense dello stesso concetto
+
+### Tipologie di SOC Report — Framework AICPA
+
+|Report|Standard|Focus|Audience|
+|---|---|---|---|
+|**SOC 1**|SSAE 18 / AT-C 320|Controlli rilevanti per reporting finanziario|User auditor, CFO|
+|**SOC 2**|SSAE 18 / AT-C 205|Controlli su security, CIA e privacy|Clienti, regolatori, partner|
+|**SOC 3**|SSAE 18 / AT-C 205|Versione pubblica e riassuntiva di SOC 2 (senza dettagli sensibili)|Pubblico generale, marketing|
+
+- SOC 1 ⇔ ISAE 3402 (focus finanziario)
+- SOC 2 & 3 ⇔ assurance più ampia su IT e data governance
+
+### Perché ISAE 3402 e SOC Reports sono importanti
+**Assurance e fiducia in ambienti in outsourcing**
+
+Le organizzazioni si affidano sempre più a fornitori terzi per processi critici. ISAE 3402 e i SOC report danno confidenza che questi fornitori:
+
+- Hanno controlli documentati ed efficaci
+- Mantengono integrità, confidenzialità e disponibilità dei dati
+- Supportano affidabilità del reporting finanziario e compliance normativa
+
+Le user entity possono sfruttare questi report invece di duplicare il testing dei controlli sui fornitori.
+
+**Risultato**: trasparenza, riduzione della duplicazione di audit e outsourcing fidato.
+
+### ISAE 3402 vs SOC Reports (Riepilogo)
+
+|Aspetto|ISAE 3402|SOC Reports|
+|---|---|---|
+|**Emittente**|IAASB / IFAC|AICPA (U.S.)|
+|**Standard**|ISAE 3402|SSAE 18|
+|**Scope**|Controlli service organization rilevanti per reporting finanziario|SOC 1: finanziario; SOC 2/3: IT e privacy più ampi|
+|**Tipo report**|Type I / Type II|Stessa struttura: Type I / Type II|
+|**Riconoscimento**|Internazionale|U.S. e riconoscimento globale|
+|**Relazione**|Standard concettuale|Framework pratico di reporting|
+
+Origini diverse — stesso obiettivo di assurance: fiducia negli ambienti di controllo di terze parti.
+
+## Altri framework e concetti
+
+### GDPR e audit della protezione dati
+Sotto il ==General Data Protection Regulation (GDPR)==, gli** audit valutano la compliance con i principi di protezione dati quali liceità, correttezza, limitazione delle finalità, minimizzazione e integrità**. Gli auditor verificano l'esistenza di misure tecniche e organizzative (TOM) e valutano la documentazione di accountability e le procedure di gestione delle violazioni.
+
+### Misure Tecniche e Organizzative (TOM)
+Controlli che garantiscono protezione dati, mitigazione del rischio e compliance (es. GDPR, ISO 27001, SOC 2).
+
+**Misure tecniche**:
+- Crittografia, controllo accessi, backup, monitoraggio
+
+**Misure organizzative**:
+- Policy, formazione, incident response, gestione fornitori
+
+Le TOM sono le salvaguardie pratiche che supportano i framework di sicurezza e compliance.
+
+### Continuous Auditing
+Il continuous auditing integra automazione e analytics per eseguire test dei controlli in tempo quasi reale. Supporta l'early detection di breakdown dei controlli, frodi o misconfigurazioni, colmando il divario tra audit periodici tradizionali e modelli di assurance continua. Principalmente interno.
+
+### Mappatura dei framework
+Gli auditor spesso cross-referenziano controlli tra framework (es. mappare NIST CSF su ISO 27001 Annex A o COBIT). Queste mappature garantiscono copertura completa, riducono ridondanza e migliorano interoperabilità attraverso regimi di compliance.
+
+## Il toolbox dell'auditor
+Gli auditor moderni impiegano un toolkit diversificato:
+
+- Revisione di policy e documentazione
+- Walkthrough e interviste
+- Campionamento e re-esecuzione
+- Ispezione delle configurazioni
+- Data analytics e query automatizzate
+- Osservazione dell'operatività dei controlli
+
+L'integrazione di metodi tecnici e analitici rafforza l'affidabilità dell'audit.
+
+## Flusso del processo di risk-based audit
+Un workflow strutturato garantisce consistenza nell'audit:
+
+1. **Plan**: definire obiettivi e scope
+2. **Assess Risk**: identificare e classificare aree critiche
+3. **Design Tests**: sviluppare procedure su misura
+4. **Execute**: raccogliere e analizzare evidenze
+5. **Evaluate**: confrontare risultati con criteri
+6. **Report**: comunicare finding e raccomandazioni
+7. **Follow-Up**: verificare remediation e miglioramento continuo
+
+
+```ad-seealso
+title: Sintesi
+
+Il ==risk-based auditing== allinea le attività di assurance con le priorità organizzative e l'esposizione al rischio. Integrando framework di controllo come COSO, COBIT, ISO 27001 e NIST, gli auditor stabiliscono una base strutturata per l'auditing specifico IT.
 ```
 
-### ISAE 3402 Report Types
 
-| Type    | Description    | Period Covered | Usefulness |
-|---|---|---|---|
-| **Type I**   | Design and implementation of controls at a specific point in time | One date    | Verifies control design |
-| **Type II**   | Design and operating effectiveness of controls over a period (6–12 months) | Time period    | Tests control performance |
-**_Key point_**: Type II reports provide stronger assurance because they test whether controls operated effectively over time
-
-## Relationship with SOC Reports (AICPA)
-- The AICPA (U.S.) developed the SOC reporting framework under SSAE 18, which mirrors ISAE 3402 principles
-- Both standards describe the same engagement type: assurance on controls at service organizations
-- SOC 1 reports = U.S. equivalent of ISAE 3402
-- SOC reports expand beyond financial reporting through SOC 2 and SOC 3
-- *ISAE 3402: international standard*
-- *SOC 1: U.S. implementation of the same concept*
-
-## SOC Report Types — AICPA Framework
-
-| Report    | Standard    | Focus    | Audience    |
-|---|---|---|---|
-| **SOC 1**   | SSAE 18 / AT-C 320 | Controls relevant to financial reporting | User auditors, CFOs    |
-| **SOC 2**   | SSAE 18 / AT-C 205 | Controls on security, CIA, and privacy | Clients, regulators, partners    |
-| **SOC 3**   | SSAE 18 / AT-C 205 | Public, summarized version of SOC 2 (no sensitive details) | General public, marketing |
-
-- SOC 1 ⇔ ISAE 3402 (financial focus)
-- SOC 2 & 3 ⇔ broader assurance on IT and data governance
-
-## Why ISAE 3402 and SOC Reports Matter
-
-**_Assurance and Trust in Outsourced Environments_**
-- Organizations increasingly rely on third-party providers for critical processes
-- ISAE 3402 and SOC reports give confidence that these providers
-	- Have documented and effective controls
-	- Maintain integrity, confidentiality, and availability of data
-	- Support financial reporting reliability and regulatory compliance
-- User entities can leverage these reports instead of duplicating control testing on suppliers
-- *Outcome: transparency, reduced audit duplication, and trusted outsourcing*
-## ISAE 3402 vs SOC Reports (Summary)
-
-| Aspect    | ISAE 3402    | SOC Reports    |
-|---|---|---|
-| Issuer    | IAASB / IFAC    | AICPA (U.S.)    |
-| Standard    | ISAE 3402    | SSAE 18    |
-| Scope    | Service organization controls relevant to financial reporting | SOC 1: financial; SOC 2/3: broader IT & privacy |
-| Report Type   | Type I / Type II    | Same structure: Type I / Type II    |
-| Recognition    | International    | U.S. and global recognition    |
-| Relationship    | Conceptual standard    | Practical reporting framework    |
-
-Different origins — same assurance goal: trust in third-party control environments
-
-## GDPR and Data Protection Audits
-- Under the General Data Protection Regulation (GDPR), audits assess compliance with data protection principles such as lawfulness, fairness, purpose limitation, minimization, and integrity
-- Auditors verify the existence of technical and organizational measures (TOMs) and evaluate accountability documentation and breach-handling procedures
-
-## Technical and Organizational Measures (TOM)
-- Controls ensuring data protection, risk mitigation, and compliance (e.g., GDPR, ISO 27001, SOC 2)
-- Technical measures
-	- Encryption, Access control, Backup, Monitoring
-- Organizational measures
-	- Policies, Training, Incident response, Vendor management
-- TOMs are the practical safeguards supporting security and compliance frameworks
-## Continuous Auditing
-- Continuous auditing integrates automation and analytics to perform control testing in near real time
-- It supports early detection of control breakdowns, fraud, or misconfigurations, bridging traditional periodic audits with continuous assurance models
-- Mainly internal
-## Mapping Frameworks
-- Auditors often cross-reference controls between frameworks
-  - e.g., mapping NIST CSF to ISO 27001 Annex A or COBIT
-- These mappings ensure comprehensive coverage, reduce redundancy, and enhance interoperability across compliance regimes
-
-## The Auditor's Toolbox
-- Modern auditors employ a diverse toolkit, including
-	- Policy and documentation review
-	- Walkthroughs and interviews
-	- Sampling and re-performance
-	- Configuration inspection
-	- Data analytics and automated queries
-	- Observation of control operation
-- Integration of technical and analytical methods strengthens audit reliability
-## Risk-Based Audit Process Flow
-
-A structured workflow ensures audit consistency
-1. Plan – define objectives and scope
-2. Assess Risk – identify and rank critical areas
-3. Design Tests – develop tailored procedures
-4. Execute – collect and analyze evidence
-5. Evaluate – compare results to criteria
-6. Report – communicate findings and recommendations
-7. Follow-Up – verify remediation and continuous improvement
-## Section Summary
-
-- Risk-based auditing aligns assurance activities with organizational priorities and risk exposure
-- By integrating control frameworks such as COSO, COBIT, ISO 27001, and NIST, auditors establish a structured foundation for IT-specific auditing (later)
 
 
 # IT Audit Domains and Cases
 
-## Introduction to IT Audit
+## Introduzione all'IT Audit
+L=='IT auditing== valuta la governance, l'infrastruttura e i controlli operativi dei sistemi informativi. Il suo **scopo** è **_verificare che la tecnologia supporti gli obiettivi organizzativi in modo sicuro, efficiente e affidabile_**. Attraverso un approccio strutturato, l'IT audit colma il divario tra assurance manageriale e validazione tecnica.
 
-- IT auditing evaluates the governance, infrastructure, and operational controls of information systems
-- Its purpose is to verify that technology supports organizational objectives securely, efficiently, and reliably
-- Through a structured approach, IT audit bridges the gap between management assurance and technical validation 
-## IT General Controls (ITGCs)
+## IT General Controls (ITGC)
+Gli ==ITGC== costituiscono la **base dell'affidabilità dei sistemi e dei controlli automatizzati**. Sono tipicamente raggruppati in tre domini:
 
-- ITGCs form the foundation of system reliability and automated controls
-- They are typically grouped into three domains
-  1. Access Management – ensuring authorized and traceable system access
-  2. Change Management – maintaining controlled system modifications
-  3. IT Operations – sustaining consistent, secure, and recoverable system functioning
-- Strong ITGCs underpin every layer of audit assurance
+1. **Access Management**: garantire accesso autorizzato e tracciabile ai sistemi
+2. **Change Management**: mantenere modifiche di sistema controllate
+3. **IT Operations**: sostenere funzionamento coerente, sicuro e recuperabile dei sistemi
 
-## Access Management Controls
-Effective access control frameworks include
-- Joiner–Mover–Leaver procedures for user lifecycle management
-- Role-Based Access Control (RBAC) to enforce least privilege
-- Segregation of Duties (SoD) to prevent conflicts and fraud
-- Privileged account monitoring for administrative actions
-- Multi-Factor Authentication (MFA) to strengthen authentication resilience
+ITGC solidi sono alla base di ogni livello di assurance dell'audit.
 
-Auditors assess both configuration and operational enforcement
-## Change Management Controls
-Change management ensures that system modifications are authorized, tested, and traceable
-Auditors examine
-- Version control systems (e.g., Git) for tracking code changes
-- Testing and approval workflows validating reliability
-- Release documentation and rollback plans confirming reversibility
+## Domini dei controlli IT
 
-Weak change management is a frequent source of security incidents and operational failures
+### Access Management Controls
+Framework efficaci di controllo degli accessi includono:
 
-## IT Operations Controls
-IT operations provide stability and continuity to digital systems.
-Key control areas include
+- Procedure Joiner-Mover-Leaver per la gestione del ciclo di vita degli utenti
+- Role-Based Access Control (RBAC) per applicare il principio del minimo privilegio
+- Segregation of Duties (SoD) per prevenire conflitti e frodi
+- Monitoraggio degli account privilegiati per azioni amministrative
+- Multi-Factor Authentication (MFA) per rafforzare la resilienza dell'autenticazione
 
-- Backup and recovery validation
-- Patch and vulnerability management
-- Incident and problem management with root-cause tracking
-- Job scheduling and monitoring for automated processes
-- Capacity management and business continuity planning
+Gli auditor valutano sia la configurazione che l'applicazione operativa dei controlli.
 
-These controls ensure service resilience and data protection
+### Change Management Controls
+
+Il change management garantisce che le modifiche ai sistemi siano autorizzate, testate e tracciabili. Gli auditor esaminano:
+
+- Sistemi di version control (es. Git) per tracciare le modifiche al codice
+- Workflow di test e approvazione che validano l'affidabilità
+- Documentazione delle release e piani di rollback che confermano la reversibilità
+
+Un change management debole è una fonte frequente di incidenti di sicurezza e fallimenti operativi.
+
+### IT Operations Controls
+
+Le operazioni IT forniscono stabilità e continuità ai sistemi digitali. Aree chiave di controllo includono:
+
+- Validazione di backup e recovery
+- Gestione di patch e vulnerabilità
+- Gestione di incident e problem con tracciamento della root cause
+- Scheduling e monitoraggio dei job per processi automatizzati
+- Capacity management e pianificazione della business continuity
+
+Questi controlli garantiscono resilienza del servizio e protezione dei dati.
 ## Application Controls
-Application controls operate within specific software environments, ensuring processing accuracy and completeness
 
-Examples include
-- Input validation to prevent data corruption
-- Processing checks to confirm integrity
-- Output reconciliation for accuracy and completeness
-- Interface controls guaranteeing data exchange integrity
+I controlli applicativi operano all'interno di ambienti software specifici, garantendo accuratezza e completezza dell'elaborazione. Esempi includono:
 
->When automated, they significantly reduce operational risk
+- Validazione degli input per prevenire corruzione dei dati
+- Controlli di elaborazione per confermare l'integrità
+- Riconciliazione degli output per accuratezza e completezza
+- Controlli di interfaccia che garantiscono l'integrità dello scambio dati
 
-## Testing Automated Controls
-- Auditors assess automated controls by inspecting configuration parameters, logic rules, and exception handling mechanisms
-- Typical evidence includes screenshots, configuration exports, and system logs
-- Automated controls offer higher reliability, but only if systems are properly configured, maintained, and protected from unauthorized change
+Quando automatizzati, riducono significativamente il rischio operativo.
 
-## CAATs (Computer-Assisted Audit Techniques)
-- CAATs integrate technology into the audit process
-- Common tools and languages (e.g., SQL, Python, ACL, IDEA) enable
-	- Full-population data analysis
-	- Detection of anomalies, duplicates, or exceptions
-	- Cross-validation of transactional integrity
-- CAATs enhance efficiency, accuracy, and reproducibility of audit testing
+### Testing dei controlli automatizzati
 
-## Example of Data Analytics in Audit
-Data analytics can identify systemic issues, such as
-- Duplicate payments or inconsistent transactions
-- Orphan records violating referential integrity
-- Unauthorized access attempts detected in system logs
+Gli auditor valutano i controlli automatizzati ispezionando parametri di configurazione, regole logiche e meccanismi di gestione delle eccezioni. Evidenze tipiche includono screenshot, export di configurazioni e log di sistema. I controlli automatizzati offrono maggiore affidabilità, ma solo se i sistemi sono propriamente configurati, mantenuti e protetti da modifiche non autorizzate.
 
->Automated queries allow auditors to validate control performance across large datasets
+## Tecniche e strumenti di audit
 
-## Audit of Logical Security
-- Logical security audits verify that information access and protection mechanisms are effective
-- Key focus areas include
-	- Identity and Access Management (IAM) systems
-	- Password policies and encryption standards
-	- Network segmentation and access control lists (ACLs)
-	- Logging, monitoring, and alerting mechanisms
-- Auditors assess compliance with ISO 27002 (*Information Security, Cybersecurity and Privacy Protection — Information Security Controls*) and related best practices
+### CAAT (Computer-Assisted Audit Techniques)
 
-## Infrastructure and Network Audit
-- Infrastructure audits assess the integrity and resilience of physical and virtual components
-- Typical procedures include
-	- Reviewing firewall and router configurations
-	- Checking patch levels and system hardening
-	- Verifying vulnerability management processes
-	- Ensuring asset inventories are accurate and complete
-- Strong network governance supports reliable cybersecurity assurance
+Le CAAT integrano la tecnologia nel processo di audit. Strumenti e linguaggi comuni (es. SQL, Python, ACL, IDEA) abilitano:
 
-## Cloud Auditing
-- Cloud environments introduce shared-responsibility models between provider and customer
-- Auditors must
-	- Distinguish between provider and client control domains
-	- Review SOC 2 reports and certifications for provider assurance
-	- Evaluate IAM roles, encryption, and data segregation
-	- Verify contractual SLAs and data residency obligations
-- Cloud audits require understanding of both regulatory compliance and technical configuration
-## Vendor and Third-Party Audits
-- Organizations increasingly rely on external service providers
-- Auditors evaluate
-	- Contractual controls and SLAs
-	- Monitoring mechanisms for vendor performance
-	- Third-party assurance reports (e.g., SOC 2, ISO 27001)
-	- Incident response coordination and data protection clauses
-- Robust third-party auditing mitigates supply-chain and outsourcing risks
+- Analisi dell'intera popolazione di dati
+- Rilevamento di anomalie, duplicati o eccezioni
+- Validazione incrociata dell'integrità transazionale
 
-## DevOps and Continuous Delivery
-DevOps environments combine speed with automation, creating new audit challenges 
-Auditors examine 
-- Change pipelines for evidence of testing, approval, and segregation 
-- Peer-review documentation and automated deployment logs 
-- Rollback and version control mechanisms 
+Le CAAT migliorano efficienza, accuratezza e riproducibilità del testing di audit.
 
-Effective auditing balances agility with control discipline, ensuring traceability in fast-paced delivery cycles 
-## Privacy Audits
-- Privacy audits ensure compliance with GDPR and other data protection laws
-- They assess
-	- Lawfulness and consent management
-	- Data minimization and purpose limitation
-	- Retention policies and secure deletion
-	- Encryption and pseudonymization measures
-	- Data subject rights management (access, rectification, erasure)
-- Privacy audits bridge legal compliance with technical enforcement
-## AI and Machine Learning Audit
-- Auditing AI systems involves evaluating both model governance and ethical implications
-- Key dimensions include
-	- Data lineage and quality of training datasets
-	- Fairness, bias, and explainability of model outputs
-	- Monitoring and drift detection to maintain reliability
-	- Accountability frameworks defining human oversight
-- Auditors assess whether AI systems align with transparency, accountability, and non-discrimination principles
+### Esempio di data analytics in audit
 
-## Evidence in IT Audits
-- In IT audits, evidence includes digital artifacts such as system logs, configuration files, access reviews, screenshots, and automated reports
-- The authenticity, integrity, and traceability of evidence determine its reliability
-- Auditors document the source and context of each artifact to maintain a defensible audit trail
+La data analytics può identificare problemi sistemici, come:
 
-## Common IT Audit Findings
-**Frequent findings include**
-  - Weak or inconsistent access provisioning
-  - Missing change authorizations or documentation
-  - Incomplete or untested backups
-  - Insufficient monitoring or alerting mechanisms
-  - Outdated or misaligned security policies
+- Pagamenti duplicati o transazioni inconsistenti
+- Record orfani che violano l'integrità referenziale
+- Tentativi di accesso non autorizzato rilevati nei log di sistema
 
->Each finding must be supported by evidence, evaluated by risk, and accompanied by remediation recommendations
+Le query automatizzate permettono agli auditor di validare la performance dei controlli su dataset di grandi dimensioni.
 
-## Reporting IT Audit Results
-- Audit reports synthesize evidence into actionable insights
-- Standard structure: Criterion → Condition → Cause → Effect → Recommendation
-- Each issue includes a risk rating and a management response, ensuring traceability and accountability
-- Effective reporting communicates both technical depth and strategic relevance
+## Ambiti specialistici dell'IT audit
 
-## Case Study 1: Identity and Access Management
-- Scenario: A SaaS platform manages thousands of users with evolving roles
-- Risks: Excessive privileges, dormant accounts, and lack of periodic review
-- Controls: Automated provisioning, periodic access recertification, and prompt deactivation of inactive accounts
-- Audit focus: Verify enforcement of RBAC and review frequency to ensure least-privilege compliance
+### Audit della sicurezza logica
 
-## Case Study 2: Change Management
-- Scenario: Continuous integration and delivery (CI/CD) pipelines push frequent updates
-- Audit procedures
-	- Verify authorization of code changes
-	- Review test and approval evidence
-	- Confirm rollback and versioning capabilities
-- Objective: Ensure rapid delivery without compromising control and traceability
-## Case Study 3: Data Analytics Audit
-- Scenario: Security event logs are analyzed for anomalies
-- Method: Use CAATs to detect outliers, unauthorized access, or unmonitored assets
-- Audit value: Demonstrate control coverage and identify areas for continuous monitoring improvement
+Gli audit di sicurezza logica verificano che i meccanismi di accesso e protezione delle informazioni siano efficaci. Aree di focus chiave includono:
 
+- Sistemi di Identity and Access Management (IAM)
+- Policy di password e standard di crittografia
+- Segmentazione di rete e access control list (ACL)
+- Meccanismi di logging, monitoraggio e alerting
+
+Gli auditor valutano la compliance con ISO 27002 (Information Security, Cybersecurity and Privacy Protection — Information Security Controls) e best practice correlate.
+
+### Audit di infrastruttura e rete
+
+Gli audit di infrastruttura valutano l'integrità e la resilienza di componenti fisiche e virtuali. Procedure tipiche includono:
+
+- Revisione di configurazioni di firewall e router
+- Verifica dei livelli di patch e dell'hardening dei sistemi
+- Verifica dei processi di vulnerability management
+- Assicurare che gli inventari degli asset siano accurati e completi
+
+Una governance di rete solida supporta assurance di cybersecurity affidabile.
+
+### Cloud Auditing
+
+Gli ambienti cloud introducono modelli di responsabilità condivisa tra provider e cliente. Gli auditor devono:
+
+- Distinguere tra domini di controllo del provider e del client
+- Revisionare report SOC 2 e certificazioni per l'assurance del provider
+- Valutare ruoli IAM, crittografia e segregazione dei dati
+- Verificare SLA contrattuali e obblighi di data residency
+
+Gli audit cloud richiedono comprensione sia della compliance normativa che della configurazione tecnica.
+
+### Audit di vendor e terze parti
+
+Le organizzazioni si affidano sempre più a fornitori di servizi esterni. Gli auditor valutano:
+
+- Controlli contrattuali e SLA
+- Meccanismi di monitoraggio della performance dei vendor
+- Report di assurance di terze parti (es. SOC 2, ISO 27001)
+- Coordinamento dell'incident response e clausole di protezione dati
+
+Un auditing robusto di terze parti mitiga i rischi di supply chain e outsourcing.
+
+### DevOps e Continuous Delivery
+
+Gli ambienti DevOps combinano velocità e automazione, creando nuove sfide di audit. Gli auditor esaminano:
+
+- Pipeline di change per evidenze di testing, approvazione e segregazione
+- Documentazione di peer review e log di deployment automatizzati
+- Meccanismi di rollback e version control
+
+Un auditing efficace bilancia agilità con disciplina di controllo, garantendo tracciabilità in cicli di delivery veloci.
+
+### Privacy Audits
+
+Gli audit di privacy garantiscono compliance con GDPR e altre leggi sulla protezione dati. Valutano:
+
+- Liceità e gestione del consenso
+- Minimizzazione dei dati e limitazione delle finalità
+- Policy di retention e cancellazione sicura
+- Misure di crittografia e pseudonimizzazione
+- Gestione dei diritti degli interessati (accesso, rettifica, cancellazione)
+
+Gli audit di privacy collegano compliance legale con enforcement tecnico.
+
+### Audit di AI e Machine Learning
+
+L'auditing di sistemi AI coinvolge la valutazione sia della governance dei modelli che delle implicazioni etiche. Dimensioni chiave includono:
+
+- Data lineage e qualità dei dataset di training
+- Fairness, bias ed explainability degli output del modello
+- Monitoraggio e drift detection per mantenere affidabilità
+- Framework di accountability che definiscono supervisione umana
+
+Gli auditor valutano se i sistemi AI si allineano ai principi di trasparenza, accountability e non discriminazione.
+
+## Evidenze negli IT audit
+
+Negli IT audit, le evidenze includono artefatti digitali come log di sistema, file di configurazione, access review, screenshot e report automatizzati. L'autenticità, integrità e tracciabilità delle evidenze ne determinano l'affidabilità. Gli auditor documentano fonte e contesto di ogni artefatto per mantenere un audit trail difendibile.
+
+## Finding e reporting
+
+### Finding comuni negli IT audit
+
+I finding frequenti includono:
+
+- Provisioning degli accessi debole o inconsistente
+- Autorizzazioni o documentazione di change mancanti
+- Backup incompleti o non testati
+- Meccanismi di monitoraggio o alerting insufficienti
+- Policy di sicurezza obsolete o disallineate
+
+Ogni finding deve essere supportato da evidenze, valutato per rischio e accompagnato da raccomandazioni di remediation.
+
+### Reporting dei risultati dell'IT audit
+
+I report di audit sintetizzano le evidenze in insight azionabili. Struttura standard:
+
+**Criterio → Condizione → Causa → Effetto → Raccomandazione**
+
+Ogni problema include un rating di rischio e una risposta del management, garantendo tracciabilità e accountability. Un reporting efficace comunica sia profondità tecnica che rilevanza strategica.
+
+## Casi di studio
+
+### Case Study 1: Identity and Access Management
+
+**Scenario**: Una piattaforma SaaS gestisce migliaia di utenti con ruoli in evoluzione.
+
+**Rischi**: Privilegi eccessivi, account dormienti e mancanza di revisione periodica.
+
+**Controlli**: Provisioning automatizzato, ricertificazione periodica degli accessi e disattivazione tempestiva degli account inattivi.
+
+**Focus dell'audit**: Verificare l'applicazione di RBAC e la frequenza di review per garantire compliance con il least privilege.
+
+### Case Study 2: Change Management
+
+**Scenario**: Pipeline di continuous integration e delivery (CI/CD) che effettuano aggiornamenti frequenti.
+
+**Procedure di audit**:
+
+- Verificare autorizzazione delle modifiche al codice
+- Revisionare evidenze di test e approvazione
+- Confermare capacità di rollback e versioning
+
+**Obiettivo**: Garantire delivery rapida senza compromettere controllo e tracciabilità.
+
+### Case Study 3: Data Analytics Audit
+
+**Scenario**: Log di eventi di sicurezza analizzati per anomalie.
+
+**Metodo**: Utilizzare CAAT per rilevare outlier, accessi non autorizzati o asset non monitorati.
+
+**Valore dell'audit**: Dimostrare la capacità di rilevamento continuo e identificare gap di controllo attraverso analisi automatizzata.
+
+```ad-seealso
+title: Sintesi
+
+L'IT audit fornisce assurance strutturata sulla governance, sicurezza e affidabilità dei sistemi informativi. Attraverso la valutazione di ITGC, controlli applicativi, sicurezza logica e configurazioni tecniche, gli auditor collegano compliance normativa con prestazioni operative. L'uso di CAAT, l'analisi di evidenze digitali e l'applicazione di framework di controllo permettono agli auditor di fornire assurance credibile in ambienti tecnologici complessi e in rapida evoluzione.
+```
