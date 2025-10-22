@@ -4,23 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e2d217f3463b0df4",
+        "id": "e0287f718e0516fb",
         "type": "tabs",
         "children": [
           {
-            "id": "9f0c2bc2e3762483",
+            "id": "64abe3ef67d43fb4",
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Mobile Application and Cloud Computing/6) PAAS AND SAAS.md",
-                "mode": "source",
-                "source": false
+                "file": "Security Governance/PDF/SG-Lecture-auditing25-26.pdf"
               },
               "pinned": true,
-              "icon": "lucide-file",
-              "title": "6) PAAS AND SAAS"
+              "icon": "lucide-file-text",
+              "title": "SG-Lecture-auditing25-26"
             }
           }
         ]
@@ -94,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 312.51103591918945
   },
   "right": {
     "id": "a0e77eb9b773ebc5",
@@ -186,31 +184,43 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "9f0c2bc2e3762483",
+  "active": "682a37423256a8fc",
   "lastOpenFiles": [
-    "Mobile Application and Cloud Computing/Images/M97 1.png",
-    "Mobile Application and Cloud Computing/PDF/06_PAAS_SAAS.pdf",
-    "Mobile Application and Cloud Computing/6) PAAS AND SAAS.md",
-    "Mobile Application and Cloud Computing/Images/M86 1.png",
-    "Mobile Application and Cloud Computing/Images/M100.png",
-    "Mobile Application and Cloud Computing/Images/M99.png",
-    "Mobile Application and Cloud Computing/Images/M98.png",
-    "Mobile Application and Cloud Computing/Images/M97.png",
-    "Mobile Application and Cloud Computing/Images/M96.png",
-    "Mobile Application and Cloud Computing/Images/M95.png",
-    "Mobile Application and Cloud Computing/Images/M94.png",
-    "Mobile Application and Cloud Computing/Images/M93.png",
-    "Pasted image 20251017161546.png",
-    "Malware Analysis/Practical Lecture (1-2-3).md",
-    "Mobile Application and Cloud Computing/PDF/05_docker-2.pdf",
+    "Security Governance/7) Audit and IT audits.md",
+    "Security Governance/PDF/SG-Lecture-auditing25-26.pdf",
+    "Security Governance/Images/ISG71.png",
+    "Security Governance/Images/ISG70.png",
+    "Security Governance/PDF/SG-Lecture 6-2024-2025.pdf",
+    "Security Governance/PDF/SG-Lecture 5-2025-2026.pdf",
+    "Security Governance/PDF/SG-Lecture 4-2025-2026.pdf",
+    "Security Governance/PDF/Lecture 1-2.pdf",
+    "Mobile Application and Cloud Computing/7) Advanced Resource Management in cloud.md",
+    "Mobile Application and Cloud Computing/Images/M123.png",
+    "Mobile Application and Cloud Computing/PDF/07_RESOURCE_MANAGEMENT.pdf",
+    "Mobile Application and Cloud Computing/Images/M122.png",
+    "Mobile Application and Cloud Computing/Images/M121.png",
+    "Mobile Application and Cloud Computing/Images/M120.png",
+    "Mobile Application and Cloud Computing/Images/M119.png",
+    "Mobile Application and Cloud Computing/Images/M118.png",
+    "Mobile Application and Cloud Computing/Images/M117.png",
+    "Mobile Application and Cloud Computing/Images/M116.png",
     "Mobile Application and Cloud Computing/Kotlin.md",
-    "Mobile Application and Cloud Computing/5) Meeting Docker.md",
+    "Malware Analysis/8) Advanced Dynamic Analysis.md",
+    "Malware Analysis/PDF Theory/MAIF+MA-2025-06-Advanced_dynamic_analysis.pdf",
+    "Malware Analysis/PDF Theory/MAIF+MA-2025-05-Advanced_static_analysis.pdf",
+    "Malware Analysis/Practical Lecture (1-2-3).md",
+    "Malware Analysis/Bomb Exercise.md",
     "Malware Analysis/7) Advanced Static Analysis.md",
+    "Malware Analysis/1) MAIF+MA Introduction.md",
+    "Mobile Application and Cloud Computing/Comandi Git.md",
+    "Malware Analysis/PDF Practice/MAIF+SES-2024-Lab04-Reverse_code.pdf",
+    "Mobile Application and Cloud Computing/6) PAAS AND SAAS.md",
+    "Mobile Application and Cloud Computing/PDF/06_PAAS_SAAS.pdf",
+    "Mobile Application and Cloud Computing/5) Meeting Docker.md",
     "Malware Analysis/6) MAIF - Models for threat intelligence.md",
     "Malware Analysis/5) MAIF+MA Basic Dynamic Analysis.md",
     "Malware Analysis/4) MAIF+SES Basic static analysis.md",
     "Malware Analysis/2) MAIF Killchain.md",
-    "Malware Analysis/1) MAIF+MA Introduction.md",
     "Security Governance/3) Cybersecurity frameworks and best practices.md",
     "Security Governance/6) Cyber-Risk Management.md",
     "Security Governance/5) INTRODUCTION TO RISK MANAGEMENT.md",
@@ -218,15 +228,7 @@
     "Mobile Application and Cloud Computing/3-4) Cloud.md",
     "Mobile Application and Cloud Computing/2) Patterns.md",
     "Mobile Application and Cloud Computing/1) Introduction.md",
-    "Malware Analysis/PDF Theory/MAIF+MA-2025-05-Advanced_static_analysis.pdf",
-    "Malware Analysis/PDF Theory/MAIF-2024-02-models_for_threat_intelligence.pdf",
-    "Malware Analysis/PDF Theory/MAIF+MA-2025-04-Basic_dynamic_analysis-1.pdf",
     "Malware Analysis/Lab 3 Malware Analysis.md",
-    "Malware Analysis/PDF Theory/3 MAIF+SES.pdf",
-    "Security Governance/PDF/SG-Lecture 6-2024-2025.pdf",
-    "Security Governance/PDF/SG-Lecture 5-2025-2026.pdf",
-    "Malware Analysis/PDF Practice/MAIF+MA-2025-02-Assembly.pdf",
-    "Malware Analysis/PDF Theory/2 Killchain.pdf",
     "MW36.md",
     "M13.md"
   ]
