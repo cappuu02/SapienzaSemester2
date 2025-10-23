@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "0ac33964db4743d9",
+        "id": "d63a0f8e56f9a327",
         "type": "tabs",
         "children": [
           {
-            "id": "5050cd123c96ada7",
+            "id": "db93caf78d0e4f60",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "Malware Analysis/Images/MW161.png"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-image",
+              "title": "MW161"
             }
           }
         ]
@@ -184,39 +182,40 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "5050cd123c96ada7",
+  "active": "682a37423256a8fc",
   "lastOpenFiles": [
+    "Malware Analysis/Images/MW161.png",
+    "Malware Analysis/9) Yara Rules.md",
+    "Malware Analysis/PDF Theory/MAIF-2025-03-Yara_rules.pdf",
+    "Malware Analysis/Images/MW160.png",
+    "Malware Analysis/Images/MW159.png",
+    "Malware Analysis/Images/MW158.png",
+    "Malware Analysis/Images/MW157.png",
+    "Malware Analysis/Images/MW156.png",
+    "Malware Analysis/Images/MW155.png",
+    "Malware Analysis/Images/MW154.png",
+    "Malware Analysis/Images/MW153.png",
+    "Malware Analysis/Images/MW152.png",
+    "Malware Analysis/PDF Theory/MAIF+MA-2025-06-Advanced_dynamic_analysis.pdf",
+    "Mobile Application and Cloud Computing/Comandi Git.md",
+    "Mobile Application and Cloud Computing/Kotlin.md",
+    "README.md",
     "Security Governance/Dispensa Prof.pdf",
     "Security Governance/7) Audit and IT audits.md",
     "Bakup.md",
-    "README.md",
     "Security Governance/PDF/SG-Lecture-auditing25-26.pdf",
-    "Security Governance/Images/ISG71.png",
-    "Security Governance/Images/ISG70.png",
     "Security Governance/PDF/SG-Lecture 6-2024-2025.pdf",
     "Security Governance/PDF/SG-Lecture 5-2025-2026.pdf",
     "Security Governance/PDF/SG-Lecture 4-2025-2026.pdf",
     "Security Governance/PDF/Lecture 1-2.pdf",
     "Mobile Application and Cloud Computing/7) Advanced Resource Management in cloud.md",
-    "Mobile Application and Cloud Computing/Images/M123.png",
     "Mobile Application and Cloud Computing/PDF/07_RESOURCE_MANAGEMENT.pdf",
-    "Mobile Application and Cloud Computing/Images/M122.png",
-    "Mobile Application and Cloud Computing/Images/M121.png",
-    "Mobile Application and Cloud Computing/Images/M120.png",
-    "Mobile Application and Cloud Computing/Images/M119.png",
-    "Mobile Application and Cloud Computing/Images/M118.png",
-    "Mobile Application and Cloud Computing/Images/M117.png",
-    "Mobile Application and Cloud Computing/Images/M116.png",
-    "Mobile Application and Cloud Computing/Kotlin.md",
     "Malware Analysis/8) Advanced Dynamic Analysis.md",
-    "Malware Analysis/PDF Theory/MAIF+MA-2025-06-Advanced_dynamic_analysis.pdf",
     "Malware Analysis/PDF Theory/MAIF+MA-2025-05-Advanced_static_analysis.pdf",
     "Malware Analysis/Practical Lecture (1-2-3).md",
     "Malware Analysis/Bomb Exercise.md",
     "Malware Analysis/7) Advanced Static Analysis.md",
     "Malware Analysis/1) MAIF+MA Introduction.md",
-    "Mobile Application and Cloud Computing/Comandi Git.md",
-    "Malware Analysis/PDF Practice/MAIF+SES-2024-Lab04-Reverse_code.pdf",
     "Mobile Application and Cloud Computing/6) PAAS AND SAAS.md",
     "Mobile Application and Cloud Computing/5) Meeting Docker.md",
     "Malware Analysis/6) MAIF - Models for threat intelligence.md",
@@ -229,7 +228,6 @@
     "Security Governance/1-2) Lecture.md",
     "Mobile Application and Cloud Computing/3-4) Cloud.md",
     "Mobile Application and Cloud Computing/2) Patterns.md",
-    "Mobile Application and Cloud Computing/1) Introduction.md",
-    "Malware Analysis/Lab 3 Malware Analysis.md"
+    "Mobile Application and Cloud Computing/1) Introduction.md"
   ]
 }
