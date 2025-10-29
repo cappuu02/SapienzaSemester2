@@ -4,23 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c26c5870db396d20",
+        "id": "806741d6e6c2ae6d",
         "type": "tabs",
         "children": [
           {
-            "id": "b4baeae5a444c5b3",
+            "id": "ab9a9b8d1bf562e0",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Malware Analysis/10) Malware Evasion.md",
+                "file": "Security Governance/9) Cyber-risk management, a case study.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "10) Malware Evasion"
+              "title": "9) Cyber-risk management, a case study"
             }
           }
         ]
@@ -186,21 +184,24 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "682a37423256a8fc",
+  "active": "ab9a9b8d1bf562e0",
   "lastOpenFiles": [
+    "Security Governance/Images/ISG98.png",
+    "Security Governance/Images/ISG82.png",
+    "Security Governance/Images/ISG81.png",
+    "Security Governance/9) Cyber-risk management, a case study.md",
+    "Security Governance/Images/ISG146.png",
+    "Security Governance/Images/ISG145.png",
+    "Security Governance/Images/ISG144.png",
+    "Security Governance/Images/ISG143.png",
+    "Security Governance/Images/ISG142.png",
+    "Security Governance/Images/ISG141.png",
+    "Security Governance/Images/ISG140.png",
+    "Security Governance/Images/ISG139.png",
+    "Untitled.base",
     "Malware Analysis/10) Malware Evasion.md",
     "Malware Analysis/Practical Lecture (1-2-3).md",
     "Malware Analysis/PDF Theory/MAIF+MA-2025-07-Malware_evasion.pdf",
-    "Malware Analysis/Images/MW193.png",
-    "Malware Analysis/Images/MW192.png",
-    "Malware Analysis/Images/MW191.png",
-    "Malware Analysis/Images/MW190.png",
-    "Malware Analysis/Images/MW189.png",
-    "Malware Analysis/Images/MW188.png",
-    "Malware Analysis/Images/MW187.png",
-    "Malware Analysis/Images/MW186.png",
-    "Malware Analysis/Images/MW185.png",
-    "Malware Analysis/Images/MW184.png",
     "Security Governance/8) Risk Management, Challenges and Guidelines.md",
     "Mobile Application and Cloud Computing/PDF/09_Hands-On-GCP.pdf",
     "Mobile Application and Cloud Computing/9) Google Cloud Platform.md",
@@ -223,7 +224,6 @@
     "Security Governance/Dispensa Prof.pdf",
     "Security Governance/7) Audit and IT audits.md",
     "Bakup.md",
-    "Security Governance/PDF/SG-Lecture-auditing25-26.pdf",
     "Mobile Application and Cloud Computing/7) Advanced Resource Management in cloud.md",
     "Malware Analysis/7) Advanced Static Analysis.md",
     "Malware Analysis/1) MAIF+MA Introduction.md",
@@ -231,7 +231,6 @@
     "Mobile Application and Cloud Computing/5) Meeting Docker.md",
     "Malware Analysis/6) MAIF - Models for threat intelligence.md",
     "Malware Analysis/5) MAIF+MA Basic Dynamic Analysis.md",
-    "Malware Analysis/4) MAIF+SES Basic static analysis.md",
-    "Malware Analysis/2) MAIF Killchain.md"
+    "Malware Analysis/4) MAIF+SES Basic static analysis.md"
   ]
 }
