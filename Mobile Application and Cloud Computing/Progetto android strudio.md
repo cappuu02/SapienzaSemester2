@@ -9,7 +9,7 @@ L'applicazione deve avere:
 - pagina profilo
 	- informazioni con foto, numero di follower e following	
 	- possibilità caricamento foto
- 	- con tre bottoni attività e statistiche e documenti
+ - con tre bottoni attività e statistiche e documenti
 	- possibilità di aggiungere amici scansionando il qrcode dell'altro amico
 - pagina mappa con registrazione attività personale che viene salvata automaticamente al termine dell'attività
 - pagina impostazioni
