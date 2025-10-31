@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "722f213212b86c05",
+        "id": "fce3ca361b71b726",
         "type": "tabs",
         "children": [
           {
-            "id": "0a4c96ab1dc98f40",
+            "id": "57eb722d8daced2f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,19 +180,22 @@
       "quiz-generator:Open generator": false
     }
   },
-  "active": "0a4c96ab1dc98f40",
+  "active": "57eb722d8daced2f",
   "lastOpenFiles": [
+    "Mobile Application and Cloud Computing/10) Android Software Stack.md",
+    "Mobile Application and Cloud Computing/PDF/10_Android_framework.pdf",
+    "Mobile Application and Cloud Computing/Images/M146.png",
+    "Mobile Application and Cloud Computing/Images/M145.png",
+    "Mobile Application and Cloud Computing/Images/M144.png",
+    "Mobile Application and Cloud Computing/Images/M143.png",
+    "Mobile Application and Cloud Computing/Images/M142.png",
+    "Mobile Application and Cloud Computing/Images/M141.png",
+    "Mobile Application and Cloud Computing/Images/M140.png",
+    "Pasted image 20251031114518.png",
+    "Mobile Application and Cloud Computing/Images/M139.png",
+    "Mobile Application and Cloud Computing/Images/M138.png",
+    "Mobile Application and Cloud Computing/9) Google Cloud Platform.md",
     "Malware Analysis/11) Cyber Threat Intelligence Sharing.md",
-    "Malware Analysis/Images/MW238.png",
-    "Malware Analysis/Images/MW243.png",
-    "Malware Analysis/Images/MW242.png",
-    "Malware Analysis/Images/MW241.png",
-    "Malware Analysis/Images/MW240.png",
-    "Malware Analysis/Images/MW239.png",
-    "Malware Analysis/Images/MW237.png",
-    "Malware Analysis/Images/MW236.png",
-    "Malware Analysis/Images/MW235.png",
-    "Malware Analysis/Images/MW234.png",
     "Malware Analysis/8) Advanced Dynamic Analysis.md",
     "Malware Analysis/Practical Lecture (1-2-3).md",
     "Malware Analysis/Bomb Exercise 4.md",
@@ -203,7 +206,6 @@
     "Malware Analysis/PDF Theory/MAIF+MA-2025-07-Malware_evasion.pdf",
     "Security Governance/8) Risk Management, Challenges and Guidelines.md",
     "Mobile Application and Cloud Computing/PDF/09_Hands-On-GCP.pdf",
-    "Mobile Application and Cloud Computing/9) Google Cloud Platform.md",
     "Mobile Application and Cloud Computing/Requisiti progetto.md",
     "Malware Analysis/Practical Lecture 5.md",
     "Malware Analysis/PDF Practice/MAIF+MA-2025-Lab05-DudeLocker.pdf",
@@ -217,7 +219,6 @@
     "Malware Analysis/PDF Theory/MAIF-2025-03-Yara_rules.pdf",
     "Malware Analysis/PDF Theory/MAIF+MA-2025-06-Advanced_dynamic_analysis.pdf",
     "README.md",
-    "Security Governance/Dispensa Prof.pdf",
     "Security Governance/7) Audit and IT audits.md",
     "Bakup.md",
     "Mobile Application and Cloud Computing/7) Advanced Resource Management in cloud.md",
@@ -225,7 +226,6 @@
     "Malware Analysis/1) MAIF+MA Introduction.md",
     "Mobile Application and Cloud Computing/6) PAAS AND SAAS.md",
     "Mobile Application and Cloud Computing/5) Meeting Docker.md",
-    "Malware Analysis/6) MAIF - Models for threat intelligence.md",
-    "Malware Analysis/5) MAIF+MA Basic Dynamic Analysis.md"
+    "Malware Analysis/6) MAIF - Models for threat intelligence.md"
   ]
 }
